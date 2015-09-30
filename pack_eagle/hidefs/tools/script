@@ -1,0 +1,22 @@
+#!/bin/sh
+
+echo "0" > /sys/class/android_usb/android0/enable
+echo "18d1" > /sys/class/android_usb/android0/idVendor
+echo "0002" > /sys/class/android_usb/android0/idProduct
+echo "SafeDisk" > /sys/class/android_usb/android0/iProduct
+cat /mnt/serial > /sys/class/android_usb/android0/iSerial
+echo "1" > /sys/devices/platform/sw_usb_udc/gadget/lun0/ro
+echo "/mnt/app.img" > /sys/devices/platform/sw_usb_udc/gadget/lun0/file
+echo "mass_storage,adb" > /sys/class/android_usb/android0/functions
+
+echo "enable android adb"
+ls /sys/class/android_usb/android0/
+echo "1" > /sys/class/android_usb/android0/enable
+
+if [ ! -e /dev/android_adb ];then
+	/bin/mknod /dev/android_adb c 10 60
+fi
+
+echo "Starting sdbd ......."
+#export SDB_TRACE=all
+start-stop-daemon --start --quiet --background --make-pidfile --pidfile /var/run/sdbd.pid --exec /mnt/tools/sdbd

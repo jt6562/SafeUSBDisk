@@ -1,0 +1,1636 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANDROID_PATH	usb_vendors.c	33;"	d	file:
+ANDROID_RESERVED_SOCKET_PREFIX	socket_local.h	21;"	d
+ANDROID_SDB_INI	usb_vendors.c	34;"	d	file:
+ANDROID_SOCKET_DIR	sockets.h	32;"	d
+ANDROID_SOCKET_ENV_PREFIX	sockets.h	31;"	d
+ANDROID_SOCKET_NAMESPACE_ABSTRACT	sockets.h	80;"	d
+ANDROID_SOCKET_NAMESPACE_FILESYSTEM	sockets.h	84;"	d
+ANDROID_SOCKET_NAMESPACE_RESERVED	sockets.h	82;"	d
+ANDROID_USB_API_SDBWINAPI_H__	sdbwinapi/sdb_api.h	18;"	d
+ANDROID_USB_API_SDBWINUSBAPI_H__	sdbwinapi/sdb_winusb_api.h	18;"	d
+ANDROID_USB_API_SDB_API_INSTANCE_H__	sdbwinapi/sdb_api_instance.h	18;"	d
+ANDROID_USB_API_SDB_API_LEGACY_H_	sdbwinapi/sdb_api_legacy.h	18;"	d
+ANDROID_USB_API_SDB_ENDPOINT_OBJECT_H__	sdbwinapi/sdb_endpoint_object.h	18;"	d
+ANDROID_USB_API_SDB_HELPER_ROUTINES_H__	sdbwinapi/sdb_helper_routines.h	18;"	d
+ANDROID_USB_API_SDB_INTERFACE_ENUM_H__	sdbwinapi/sdb_interface_enum.h	18;"	d
+ANDROID_USB_API_SDB_INTERFACE_H__	sdbwinapi/sdb_interface.h	18;"	d
+ANDROID_USB_API_SDB_IO_COMPLETION_H__	sdbwinapi/sdb_io_completion.h	18;"	d
+ANDROID_USB_API_SDB_LEGACY_ENDPOINT_OBJECT_H__	sdbwinapi/sdb_legacy_endpoint_object.h	18;"	d
+ANDROID_USB_API_SDB_LEGACY_INTERFACE_H__	sdbwinapi/sdb_legacy_interface.h	18;"	d
+ANDROID_USB_API_SDB_LEGACY_IO_COMPLETION_H__	sdbwinapi/sdb_legacy_io_completion.h	18;"	d
+ANDROID_USB_API_SDB_OBJECT_HANDLE_H__	sdbwinapi/sdb_object_handle.h	18;"	d
+ANDROID_USB_API_SDB_WINUSB_ENDPOINT_OBJECT_H__	sdbwinusbapi/sdb_winusb_endpoint_object.h	18;"	d
+ANDROID_USB_API_SDB_WINUSB_INTERFACE_H__	sdbwinusbapi/sdb_winusb_interface.h	18;"	d
+ANDROID_USB_API_SDB_WINUSB_IO_COMPLETION_H__	sdbwinusbapi/sdb_winusb_io_completion.h	18;"	d
+ANDROID_USB_CLASS_ID	sdbwinapi/sdb_api.h	88;"	d
+ANDROID_USB_SDB_API_PRIVATE_DEFINES_H__	sdbwinapi/sdb_api_private_defines.h	18;"	d
+ARCH_X86	TizenConfig.h	237;"	d
+A_CLSE	sdb.h	28;"	d
+A_CNXN	sdb.h	25;"	d
+A_OKAY	sdb.h	27;"	d
+A_OPEN	sdb.h	26;"	d
+A_SYNC	sdb.h	24;"	d
+A_VERSION	sdb.h	31;"	d
+A_WRTE	sdb.h	29;"	d
+AdbTrace	sdb.h	/^} AdbTrace;$/;"	t	typeref:enum:__anon1
+AddRef	sdbwinapi/sdb_api_instance.h	/^   LONG AddRef() {$/;"	f	class:SdbApiInstance
+AddRef	sdbwinapi/sdb_object_handle.cpp	/^LONG SdbObjectHandle::AddRef() {$/;"	f	class:SdbObjectHandle
+AndroidInterfaceAdded	usb_osx.c	/^AndroidInterfaceAdded(void *refCon, io_iterator_t iterator)$/;"	f	file:
+AndroidInterfaceNotify	usb_osx.c	/^AndroidInterfaceNotify(void *refCon, io_service_t service, natural_t messageType, void *messageArgument)$/;"	f	file:
+AsyncRead	sdbwinapi/sdb_endpoint_object.cpp	/^SDBAPIHANDLE SdbEndpointObject::AsyncRead(void* buffer,$/;"	f	class:SdbEndpointObject
+AsyncWrite	sdbwinapi/sdb_endpoint_object.cpp	/^SDBAPIHANDLE SdbEndpointObject::AsyncWrite(void* buffer,$/;"	f	class:SdbEndpointObject
+AttachToSdbWinUsbApi	sdbwinapi/SdbWinApi.cpp	/^  void AttachToSdbWinUsbApi() {$/;"	f	class:CSdbWinApiModule
+BEGIN	file_sync_client.c	/^static void BEGIN()$/;"	f	file:
+BIPD	sysdeps_win32.c	855;"	d	file:
+BIPDUMP	sysdeps_win32.c	856;"	d	file:
+BIP_BUFFER_SIZE	sysdeps_win32.c	827;"	d	file:
+BUFF_DECL	utils.h	65;"	d
+BUILD_ADBD	Android.mk	/^    BUILD_ADBD := true$/;"	m
+BUILD_ADBD	Android.mk	/^BUILD_ADBD := false$/;"	m
+BUILT_IN_VENDOR_COUNT	usb_vendors.c	116;"	d	file:
+BipBuffer	sysdeps_win32.c	/^} BipBufferRec, *BipBuffer;$/;"	t	typeref:struct:BipBufferRec_	file:
+BipBufferRec	sysdeps_win32.c	/^} BipBufferRec, *BipBuffer;$/;"	t	typeref:struct:BipBufferRec_	file:
+BipBufferRec_	sysdeps_win32.c	/^typedef struct BipBufferRec_$/;"	s	file:
+CHUNK_SIZE	sdb.h	417;"	d
+CS_ANY	sdb.h	407;"	d
+CS_BOOTLOADER	sdb.h	409;"	d
+CS_DEVICE	sdb.h	410;"	d
+CS_HOST	sdb.h	411;"	d
+CS_NOPERM	sdb.h	413;"	d
+CS_OFFLINE	sdb.h	408;"	d
+CS_RECOVERY	sdb.h	412;"	d
+CSdbWinApiModule	sdbwinapi/SdbWinApi.cpp	/^  CSdbWinApiModule()$/;"	f	class:CSdbWinApiModule
+CSdbWinApiModule	sdbwinapi/SdbWinApi.cpp	/^class CSdbWinApiModule : public CAtlDllModuleT< CSdbWinApiModule > {$/;"	c	file:
+CSdbWinApiModule	sdbwinusbapi/SdbWinUsbApi.cpp	/^class CSdbWinApiModule : public CAtlDllModuleT< CSdbWinApiModule > {$/;"	c	file:
+CacheUsbConfigurationDescriptor	sdbwinapi/sdb_legacy_interface.cpp	/^bool SdbLegacyInterfaceObject::CacheUsbConfigurationDescriptor($/;"	f	class:SdbLegacyInterfaceObject
+CacheUsbDeviceDescriptor	sdbwinapi/sdb_legacy_interface.cpp	/^bool SdbLegacyInterfaceObject::CacheUsbDeviceDescriptor($/;"	f	class:SdbLegacyInterfaceObject
+CacheUsbInterfaceDescriptor	sdbwinapi/sdb_legacy_interface.cpp	/^bool SdbLegacyInterfaceObject::CacheUsbInterfaceDescriptor($/;"	f	class:SdbLegacyInterfaceObject
+CheckInterface	usb_osx.c	/^CheckInterface(IOUSBInterfaceInterface **interface, UInt16 vendor, UInt16 product)$/;"	f	file:
+CloseHandle	sdbwinapi/sdb_legacy_endpoint_object.cpp	/^bool SdbLegacyEndpointObject::CloseHandle() {$/;"	f	class:SdbLegacyEndpointObject
+CloseHandle	sdbwinapi/sdb_object_handle.cpp	/^bool SdbObjectHandle::CloseHandle() {$/;"	f	class:SdbObjectHandle
+CloseHandle	sdbwinusbapi/sdb_winusb_interface.cpp	/^bool SdbWinUsbInterfaceObject::CloseHandle() {$/;"	f	class:SdbWinUsbInterfaceObject
+CommonAsyncReadWrite	sdbwinapi/sdb_legacy_endpoint_object.cpp	/^SDBAPIHANDLE SdbLegacyEndpointObject::CommonAsyncReadWrite($/;"	f	class:SdbLegacyEndpointObject
+CommonAsyncReadWrite	sdbwinusbapi/sdb_winusb_endpoint_object.cpp	/^SDBAPIHANDLE SdbWinUsbEndpointObject::CommonAsyncReadWrite($/;"	f	class:SdbWinUsbEndpointObject
+CommonSyncReadWrite	sdbwinapi/sdb_legacy_endpoint_object.cpp	/^bool SdbLegacyEndpointObject::CommonSyncReadWrite(bool is_read,$/;"	f	class:SdbLegacyEndpointObject
+CommonSyncReadWrite	sdbwinusbapi/sdb_winusb_endpoint_object.cpp	/^bool SdbWinUsbEndpointObject::CommonSyncReadWrite(bool is_read,$/;"	f	class:SdbWinUsbEndpointObject
+CreateHandle	sdbwinapi/sdb_legacy_endpoint_object.cpp	/^SDBAPIHANDLE SdbLegacyEndpointObject::CreateHandle($/;"	f	class:SdbLegacyEndpointObject
+CreateHandle	sdbwinapi/sdb_legacy_interface.cpp	/^SDBAPIHANDLE SdbLegacyInterfaceObject::CreateHandle() {$/;"	f	class:SdbLegacyInterfaceObject
+CreateHandle	sdbwinapi/sdb_object_handle.cpp	/^SDBAPIHANDLE SdbObjectHandle::CreateHandle() {$/;"	f	class:SdbObjectHandle
+CreateHandle	sdbwinusbapi/sdb_winusb_interface.cpp	/^SDBAPIHANDLE SdbWinUsbInterfaceObject::CreateHandle() {$/;"	f	class:SdbWinUsbInterfaceObject
+D	sdb.h	358;"	d
+D	sdb.h	364;"	d
+DBG	usb_osx.c	33;"	d	file:
+DBGX	usb_linux.c	46;"	d	file:
+DDMS_RAWIMAGE_VERSION	framebuffer_service.c	35;"	d	file:
+DEBUG	fdevent.c	33;"	d	file:
+DEFAULT_DEVICENAME	sdb.h	427;"	d
+DEFAULT_SDB_LOCAL_TRANSPORT_PORT	sdb.h	378;"	d
+DEFAULT_SDB_PORT	sdb.h	377;"	d
+DEVICEMAP_FILENAME	sdb.h	424;"	d
+DEVICEMAP_SEPARATOR	sdb.h	423;"	d
+DEVICENAME_MAX	sdb.h	425;"	d
+DEVICE_BULK_READ_PIPE_NAME	sdbwinapi/sdb_api_legacy.h	36;"	d
+DEVICE_BULK_WRITE_PIPE_NAME	sdbwinapi/sdb_api_legacy.h	39;"	d
+DEVICE_COMPOSITE_PRODUCT_ID	sdbwinapi/sdb_api.h	98;"	d
+DEVICE_EMULATOR_PROD_ID	sdbwinapi/sdb_api.h	111;"	d
+DEVICE_EMULATOR_VENDOR_ID	sdbwinapi/sdb_api.h	107;"	d
+DEVICE_INTERFACE_ID	sdbwinapi/sdb_api.h	104;"	d
+DEVICE_MAGIC_COMPOSITE_PRODUCT_ID	sdbwinapi/sdb_api.h	101;"	d
+DEVICE_PIPE_NAME_PREFIX	sdbwinapi/sdb_api_legacy.h	42;"	d
+DEVICE_SINGLE_PRODUCT_ID	sdbwinapi/sdb_api.h	95;"	d
+DEVICE_VENDOR_ID	sdbwinapi/sdb_api.h	92;"	d
+DUMPMAX	sdb.c	166;"	d	file:
+DllMain	sdbwinapi/SdbWinApi.cpp	/^extern "C" BOOL WINAPI DllMain(HINSTANCE instance,$/;"	f
+DllMain	sdbwinusbapi/SdbWinUsbApi.cpp	/^extern "C" BOOL WINAPI DllMain(HINSTANCE instance,$/;"	f
+END	file_sync_client.c	/^static void END()$/;"	f	file:
+EXTERN_C	sdbwinapi/sdb_api.h	27;"	d
+EXTERN_C	sdbwinapi/sdb_api.h	29;"	d
+EXTERN_C	sdbwinapi/sdb_api_legacy.h	27;"	d
+EXTERN_C	sdbwinapi/sdb_api_legacy.h	29;"	d
+EXTRA_SRCS	Android.mk	/^  EXTRA_SRCS := get_my_path_darwin.c$/;"	m
+EXTRA_SRCS	Android.mk	/^  EXTRA_SRCS := get_my_path_freebsd.c$/;"	m
+EXTRA_SRCS	Android.mk	/^  EXTRA_SRCS := get_my_path_linux.c$/;"	m
+EXTRA_SRCS	Android.mk	/^  EXTRA_SRCS := get_my_path_windows.c$/;"	m
+EXTRA_SRCS	Android.mk	/^EXTRA_SRCS :=$/;"	m
+EXTRA_STATIC_LIBS	Android.mk	/^  EXTRA_STATIC_LIBS := AdbWinApi$/;"	m
+EnumerateDeviceInterfaces	sdbwinapi/sdb_helper_routines.cpp	/^bool EnumerateDeviceInterfaces(GUID class_id,$/;"	f
+EnumerateDeviceInterfaces	sdbwinapi/sdb_helper_routines.cpp	/^bool EnumerateDeviceInterfaces(HDEVINFO hardware_dev_info,$/;"	f
+EventHook	sysdeps_win32.c	/^typedef struct EventHookRec_*  EventHook;$/;"	t	typeref:struct:EventHookRec_	file:
+EventHookRec	sysdeps_win32.c	/^} EventHookRec;$/;"	t	typeref:struct:EventHookRec_	file:
+EventHookRec_	sysdeps_win32.c	/^typedef struct EventHookRec_$/;"	s	file:
+EventLooper	sysdeps_win32.c	/^typedef struct EventLooperRec_*  EventLooper;$/;"	t	typeref:struct:EventLooperRec_	file:
+EventLooperRec	sysdeps_win32.c	/^} EventLooperRec;$/;"	t	typeref:struct:EventLooperRec_	file:
+EventLooperRec_	sysdeps_win32.c	/^typedef struct EventLooperRec_$/;"	s	file:
+FATAL	fdevent.c	45;"	d	file:
+FATAL	sysdeps_win32.c	1244;"	d	file:
+FDE_ACTIVE	fdevent.c	63;"	d	file:
+FDE_ACTIVE	sysdeps_win32.c	1262;"	d	file:
+FDE_CREATED	fdevent.c	65;"	d	file:
+FDE_CREATED	sysdeps_win32.c	1264;"	d	file:
+FDE_DONT_CLOSE	fdevent.h	29;"	d
+FDE_DONT_CLOSE	sysdeps.h	178;"	d
+FDE_ERROR	fdevent.h	25;"	d
+FDE_ERROR	sysdeps.h	177;"	d
+FDE_EVENTMASK	fdevent.c	60;"	d	file:
+FDE_EVENTMASK	sysdeps_win32.c	1259;"	d	file:
+FDE_PENDING	fdevent.c	64;"	d	file:
+FDE_PENDING	sysdeps_win32.c	1263;"	d	file:
+FDE_READ	fdevent.h	23;"	d
+FDE_READ	sysdeps.h	175;"	d
+FDE_STATEMASK	fdevent.c	61;"	d	file:
+FDE_STATEMASK	sysdeps_win32.c	1260;"	d	file:
+FDE_TIMEOUT	fdevent.h	26;"	d
+FDE_WRITE	fdevent.h	24;"	d
+FDE_WRITE	sysdeps.h	176;"	d
+FH	sysdeps_win32.c	/^typedef struct FHRec_*          FH;$/;"	t	typeref:struct:FHRec_	file:
+FHClass	sysdeps_win32.c	/^typedef const struct FHClassRec_*   FHClass;$/;"	t	typeref:struct:FHClassRec_	file:
+FHClassRec	sysdeps_win32.c	/^} FHClassRec;$/;"	t	typeref:struct:FHClassRec_	file:
+FHClassRec_	sysdeps_win32.c	/^typedef struct FHClassRec_$/;"	s	file:
+FHRec	sysdeps_win32.c	/^} FHRec;$/;"	t	typeref:struct:FHRec_	file:
+FHRec_	sysdeps_win32.c	/^typedef struct FHRec_$/;"	s	file:
+FILESYSTEM_SOCKET_PREFIX	socket_local.h	20;"	d
+FLASH_DATA	commandline.c	/^    FLASH_DATA$/;"	e	enum:__anon2	file:
+GetEndpointInformation	sdbwinapi/sdb_endpoint_object.cpp	/^bool SdbEndpointObject::GetEndpointInformation(SdbEndpointInformation* info) {$/;"	f	class:SdbEndpointObject
+GetEndpointInformation	sdbwinapi/sdb_legacy_interface.cpp	/^bool SdbLegacyInterfaceObject::GetEndpointInformation($/;"	f	class:SdbLegacyInterfaceObject
+GetEndpointInformation	sdbwinusbapi/sdb_winusb_interface.cpp	/^bool SdbWinUsbInterfaceObject::GetEndpointInformation($/;"	f	class:SdbWinUsbInterfaceObject
+GetFlatSize	sdbwinapi/sdb_api_private_defines.h	/^  ULONG GetFlatSize() const {$/;"	f	class:SdbInstanceEnumEntry
+GetInterfaceName	sdbwinapi/sdb_interface.cpp	/^bool SdbInterfaceObject::GetInterfaceName(void* buffer,$/;"	f	class:SdbInterfaceObject
+GetOvelappedIoResult	sdbwinapi/sdb_legacy_io_completion.cpp	/^bool SdbLegacyIOCompletion::GetOvelappedIoResult(LPOVERLAPPED ovl_data,$/;"	f	class:SdbLegacyIOCompletion
+GetOvelappedIoResult	sdbwinusbapi/sdb_winusb_io_completion.cpp	/^bool SdbWinUsbIOCompletion::GetOvelappedIoResult(LPOVERLAPPED ovl_data,$/;"	f	class:SdbWinUsbIOCompletion
+GetParentInterfaceHandle	sdbwinapi/sdb_endpoint_object.h	/^  SDBAPIHANDLE GetParentInterfaceHandle() const {$/;"	f	class:SdbEndpointObject
+GetParentObjectHandle	sdbwinapi/sdb_io_completion.h	/^  SDBAPIHANDLE GetParentObjectHandle() const {$/;"	f	class:SdbIOCompletion
+GetSDKComplientParam	sdbwinapi/sdb_helper_routines.cpp	/^bool GetSDKComplientParam(SdbOpenAccessType access_type,$/;"	f
+GetSerialNumber	sdbwinapi/sdb_legacy_interface.cpp	/^bool SdbLegacyInterfaceObject::GetSerialNumber(void* buffer,$/;"	f	class:SdbLegacyInterfaceObject
+GetSerialNumber	sdbwinusbapi/sdb_winusb_interface.cpp	/^bool SdbWinUsbInterfaceObject::GetSerialNumber(void* buffer,$/;"	f	class:SdbWinUsbInterfaceObject
+GetUsbConfigurationDescriptor	sdbwinapi/sdb_interface.cpp	/^bool SdbInterfaceObject::GetUsbConfigurationDescriptor($/;"	f	class:SdbInterfaceObject
+GetUsbDeviceDescriptor	sdbwinapi/sdb_interface.cpp	/^bool SdbInterfaceObject::GetUsbDeviceDescriptor(USB_DEVICE_DESCRIPTOR* desc) {$/;"	f	class:SdbInterfaceObject
+GetUsbDeviceDetails	sdbwinapi/sdb_helper_routines.cpp	/^bool GetUsbDeviceDetails($/;"	f
+GetUsbDeviceName	sdbwinapi/sdb_helper_routines.cpp	/^bool GetUsbDeviceName(HDEVINFO hardware_dev_info,$/;"	f
+GetUsbInterfaceDescriptor	sdbwinapi/sdb_interface.cpp	/^bool SdbInterfaceObject::GetUsbInterfaceDescriptor($/;"	f	class:SdbInterfaceObject
+GetWriteBuffer	sdbwinapi/sdb_api_legacy.h	/^  const void* GetWriteBuffer() const {$/;"	f	struct:SdbBulkTransfer
+GetWriteBuffer	sdbwinapi/sdb_api_legacy.h	/^  void* GetWriteBuffer() {$/;"	f	struct:SdbBulkTransfer
+H4	transport_local.c	35;"	d	file:
+H4	transport_usb.c	32;"	d	file:
+HAVE_BACKTRACE	TizenConfig.h	184;"	d
+HAVE_CXXABI	TizenConfig.h	197;"	d
+HAVE_DLADDR	TizenConfig.h	191;"	d
+HAVE_ENDIAN_H	TizenConfig.h	166;"	d
+HAVE_FORKEXEC	TizenConfig.h	62;"	d
+HAVE_LITTLE_ENDIAN	TizenConfig.h	169;"	d
+HAVE_MS_C_RUNTIME	TizenConfig.h	114;"	d
+HAVE_POSIX_FILEMAP	TizenConfig.h	91;"	d
+HAVE_STDBOOL_H	TizenConfig.h	314;"	d
+HAVE_SYS_SENDFILE_H	TizenConfig.h	107;"	d
+HAVE_SYS_SOCKET_H	TizenConfig.h	266;"	d
+HAVE_SYS_UIO_H	TizenConfig.h	121;"	d
+HAVE_TERMIO_H	TizenConfig.h	100;"	d
+HAVE_WIN32_FILEMAP	TizenConfig.h	93;"	d
+HAVE_WIN32_IPC	TizenConfig.h	82;"	d
+HAVE_WIN32_PROC	TizenConfig.h	64;"	d
+HAVE_WIN32_THREADS	TizenConfig.h	46;"	d
+HAVE_WINDOWS_PATHS	TizenConfig.h	232;"	d
+HAVE_WINSOCK	TizenConfig.h	144;"	d
+HAVE_WINSOCK2_H	TizenConfig.h	289;"	d
+HOST	sdb.c	/^int HOST = 0;$/;"	v
+IDR_SDBWINAPI	sdbwinapi/Resource.h	23;"	d
+IDR_SDBWINAPI	sdbwinusbapi/Resource.h	23;"	d
+IDS_PROJNAME	sdbwinapi/Resource.h	22;"	d
+IDS_PROJNAME	sdbwinusbapi/Resource.h	22;"	d
+ID_DATA	file_sync_service.h	44;"	d
+ID_DENT	file_sync_service.h	42;"	d
+ID_DONE	file_sync_service.h	43;"	d
+ID_FAIL	file_sync_service.h	46;"	d
+ID_LIST	file_sync_service.h	38;"	d
+ID_OKAY	file_sync_service.h	45;"	d
+ID_QUIT	file_sync_service.h	47;"	d
+ID_RECV	file_sync_service.h	41;"	d
+ID_SEND	file_sync_service.h	40;"	d
+ID_STAT	file_sync_service.h	37;"	d
+ID_ULNK	file_sync_service.h	39;"	d
+IGNORE_DATA	commandline.c	/^    IGNORE_DATA,$/;"	e	enum:__anon2	file:
+InitUSB	usb_osx.c	/^InitUSB()$/;"	f	file:
+InitializeEnum	sdbwinapi/sdb_interface_enum.cpp	/^bool SdbInterfaceEnumObject::InitializeEnum(GUID class_id,$/;"	f	class:SdbInterfaceEnumObject
+InstantiateSdbWinUsbInterface	sdbwinapi/sdb_api.cpp	/^PFN_INSTSDBWINUSBINTERFACE InstantiateSdbWinUsbInterface = NULL;$/;"	v
+InstantiateSdbWinUsbInterface	sdbwinusbapi/SdbWinUsbApi.cpp	/^SdbInterfaceObject* __cdecl InstantiateSdbWinUsbInterface($/;"	f
+IsCompleted	sdbwinapi/sdb_io_completion.cpp	/^bool SdbIOCompletion::IsCompleted() {$/;"	f	class:SdbIOCompletion
+IsInitialized	sdbwinapi/sdb_api_instance.h	/^   bool IsInitialized() const {$/;"	f	class:SdbApiInstance
+IsLegacyInterface	sdbwinapi/sdb_helper_routines.cpp	/^bool IsLegacyInterface(const wchar_t* interface_name) {$/;"	f
+IsObjectOfType	sdbwinapi/sdb_object_handle.cpp	/^bool SdbObjectHandle::IsObjectOfType(SdbObjectType obj_type) const {$/;"	f	class:SdbObjectHandle
+IsOpened	sdbwinapi/sdb_object_handle.h	/^  bool IsOpened() const {$/;"	f	class:SdbObjectHandle
+JDWP_CONTROL_NAME	jdwp_service.c	408;"	d	file:
+JDWP_CONTROL_NAME_LEN	jdwp_service.c	409;"	d	file:
+JdwpControl	jdwp_service.c	/^} JdwpControl;$/;"	t	typeref:struct:__anon10	file:
+JdwpProcess	jdwp_service.c	/^struct JdwpProcess {$/;"	s	file:
+JdwpProcess	jdwp_service.c	/^typedef struct JdwpProcess  JdwpProcess;$/;"	t	typeref:struct:JdwpProcess	file:
+JdwpSocket	jdwp_service.c	/^} JdwpSocket;$/;"	t	typeref:struct:__anon11	file:
+JdwpTracker	jdwp_service.c	/^struct JdwpTracker {$/;"	s	file:
+JdwpTracker	jdwp_service.c	/^typedef struct JdwpTracker  JdwpTracker;$/;"	t	typeref:struct:JdwpTracker	file:
+LISTEN_BACKLOG	socket_inaddr_any_server.c	33;"	d	file:
+LISTEN_BACKLOG	socket_local_client.c	42;"	d	file:
+LISTEN_BACKLOG	socket_local_server.c	44;"	d	file:
+LISTEN_BACKLOG	socket_loopback_server.c	27;"	d	file:
+LISTEN_BACKLOG	sysdeps_win32.c	614;"	d	file:
+LOCAL_AAPT_FLAGS	clear_vars.mk	/^LOCAL_AAPT_FLAGS:=$/;"	m
+LOCAL_ACP_UNAVAILABLE	clear_vars.mk	/^LOCAL_ACP_UNAVAILABLE:=$/;"	m
+LOCAL_ADDITIONAL_DEPENDENCIES	clear_vars.mk	/^LOCAL_ADDITIONAL_DEPENDENCIES:=$/;"	m
+LOCAL_ADDITIONAL_JAVA_DIR	clear_vars.mk	/^LOCAL_ADDITIONAL_JAVA_DIR:=$/;"	m
+LOCAL_AIDL_INCLUDES	clear_vars.mk	/^LOCAL_AIDL_INCLUDES:=$/;"	m
+LOCAL_ALLOW_UNDEFINED_SYMBOLS	clear_vars.mk	/^LOCAL_ALLOW_UNDEFINED_SYMBOLS:=$/;"	m
+LOCAL_ARM_MODE	clear_vars.mk	/^LOCAL_ARM_MODE:=$/;"	m
+LOCAL_ASFLAGS	clear_vars.mk	/^LOCAL_ASFLAGS:=$/;"	m
+LOCAL_ASSET_DIR	clear_vars.mk	/^LOCAL_ASSET_DIR:=$/;"	m
+LOCAL_ASSET_FILES	clear_vars.mk	/^LOCAL_ASSET_FILES:=$/;"	m
+LOCAL_BUILD_HOST_DEX	clear_vars.mk	/^LOCAL_BUILD_HOST_DEX:=$/;"	m
+LOCAL_BUILT_MODULE	clear_vars.mk	/^LOCAL_BUILT_MODULE:=$/;"	m
+LOCAL_BUILT_MODULE_STEM	clear_vars.mk	/^LOCAL_BUILT_MODULE_STEM:=$/;"	m
+LOCAL_CC	clear_vars.mk	/^LOCAL_CC:=$/;"	m
+LOCAL_CERTIFICATE	clear_vars.mk	/^LOCAL_CERTIFICATE:=$/;"	m
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := -O2 -g -DADB_HOST=0 -Wall -Wno-unused-parameter$/;"	m
+LOCAL_CFLAGS	clear_vars.mk	/^LOCAL_CFLAGS:=$/;"	m
+LOCAL_CHECKED_MODULE	clear_vars.mk	/^LOCAL_CHECKED_MODULE:=$/;"	m
+LOCAL_CLASSPATH	clear_vars.mk	/^LOCAL_CLASSPATH:=$/;"	m
+LOCAL_CLIENT_PREFIX	sdb.h	226;"	d
+LOCAL_COMPRESS_MODULE_SYMBOLS	clear_vars.mk	/^LOCAL_COMPRESS_MODULE_SYMBOLS:=$/;"	m
+LOCAL_COPY_HEADERS	clear_vars.mk	/^LOCAL_COPY_HEADERS:=$/;"	m
+LOCAL_COPY_HEADERS_TO	clear_vars.mk	/^LOCAL_COPY_HEADERS_TO:=$/;"	m
+LOCAL_CPPFLAGS	clear_vars.mk	/^LOCAL_CPPFLAGS:=$/;"	m
+LOCAL_CPP_EXTENSION	clear_vars.mk	/^LOCAL_CPP_EXTENSION:=$/;"	m
+LOCAL_CXX	clear_vars.mk	/^LOCAL_CXX:=$/;"	m
+LOCAL_C_INCLUDES	clear_vars.mk	/^LOCAL_C_INCLUDES:=$/;"	m
+LOCAL_DEX_PREOPT	clear_vars.mk	/^LOCAL_DEX_PREOPT:=$/;"	m
+LOCAL_DONT_CHECK_MODULE	clear_vars.mk	/^LOCAL_DONT_CHECK_MODULE:=$/;"	m
+LOCAL_DROIDDOC_ASSET_DIR	clear_vars.mk	/^LOCAL_DROIDDOC_ASSET_DIR:=$/;"	m
+LOCAL_DROIDDOC_CUSTOM_ASSET_DIR	clear_vars.mk	/^LOCAL_DROIDDOC_CUSTOM_ASSET_DIR:=$/;"	m
+LOCAL_DROIDDOC_CUSTOM_TEMPLATE_DIR	clear_vars.mk	/^LOCAL_DROIDDOC_CUSTOM_TEMPLATE_DIR:=$/;"	m
+LOCAL_DROIDDOC_HTML_DIR	clear_vars.mk	/^LOCAL_DROIDDOC_HTML_DIR:=$/;"	m
+LOCAL_DROIDDOC_OPTIONS	clear_vars.mk	/^LOCAL_DROIDDOC_OPTIONS:=$/;"	m
+LOCAL_DROIDDOC_SOURCE_PATH	clear_vars.mk	/^LOCAL_DROIDDOC_SOURCE_PATH:=$/;"	m
+LOCAL_DROIDDOC_TEMPLATE_DIR	clear_vars.mk	/^LOCAL_DROIDDOC_TEMPLATE_DIR:=$/;"	m
+LOCAL_DROIDDOC_USE_STANDARD_DOCLET	clear_vars.mk	/^LOCAL_DROIDDOC_USE_STANDARD_DOCLET:=$/;"	m
+LOCAL_DX_FLAGS	clear_vars.mk	/^LOCAL_DX_FLAGS:=$/;"	m
+LOCAL_EMMA_COVERAGE_FILTER	clear_vars.mk	/^LOCAL_EMMA_COVERAGE_FILTER:=$/;"	m
+LOCAL_EXPORT_PACKAGE_RESOURCES	clear_vars.mk	/^LOCAL_EXPORT_PACKAGE_RESOURCES:=$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	clear_vars.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE:=$/;"	m
+LOCAL_GENERATED_SOURCES	clear_vars.mk	/^LOCAL_GENERATED_SOURCES:=$/;"	m
+LOCAL_INSTALLED_MODULE	clear_vars.mk	/^LOCAL_INSTALLED_MODULE:=$/;"	m
+LOCAL_INSTRUMENTATION_FOR	clear_vars.mk	/^LOCAL_INSTRUMENTATION_FOR:=$/;"	m
+LOCAL_INTERMEDIATE_SOURCES	clear_vars.mk	/^LOCAL_INTERMEDIATE_SOURCES:=$/;"	m
+LOCAL_INTERMEDIATE_SOURCE_DIR	clear_vars.mk	/^LOCAL_INTERMEDIATE_SOURCE_DIR:=$/;"	m
+LOCAL_INTERMEDIATE_TARGETS	clear_vars.mk	/^LOCAL_INTERMEDIATE_TARGETS:=$/;"	m
+LOCAL_IS_HOST_MODULE	clear_vars.mk	/^LOCAL_IS_HOST_MODULE:=$/;"	m
+LOCAL_JARJAR_RULES	clear_vars.mk	/^LOCAL_JARJAR_RULES:=$/;"	m
+LOCAL_JAR_MANIFEST	clear_vars.mk	/^LOCAL_JAR_MANIFEST:=$/;"	m
+LOCAL_JAVACFLAGS	clear_vars.mk	/^LOCAL_JAVACFLAGS:=$/;"	m
+LOCAL_JAVA_LIBRARIES	clear_vars.mk	/^LOCAL_JAVA_LIBRARIES:=$/;"	m
+LOCAL_JAVA_RESOURCE_DIRS	clear_vars.mk	/^LOCAL_JAVA_RESOURCE_DIRS:=$/;"	m
+LOCAL_JAVA_RESOURCE_FILES	clear_vars.mk	/^LOCAL_JAVA_RESOURCE_FILES:=$/;"	m
+LOCAL_JNI_SHARED_LIBRARIES	clear_vars.mk	/^LOCAL_JNI_SHARED_LIBRARIES:=$/;"	m
+LOCAL_LDFLAGS	clear_vars.mk	/^LOCAL_LDFLAGS:=$/;"	m
+LOCAL_LDLIBS	clear_vars.mk	/^LOCAL_LDLIBS:=$/;"	m
+LOCAL_MANIFEST_FILE	clear_vars.mk	/^LOCAL_MANIFEST_FILE:=$/;"	m
+LOCAL_MANIFEST_INSTRUMENTATION_FOR	clear_vars.mk	/^LOCAL_MANIFEST_INSTRUMENTATION_FOR:=$/;"	m
+LOCAL_MANIFEST_PACKAGE_NAME	clear_vars.mk	/^LOCAL_MANIFEST_PACKAGE_NAME:=$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := adb$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := adbd$/;"	m
+LOCAL_MODULE	clear_vars.mk	/^LOCAL_MODULE:=$/;"	m
+LOCAL_MODULE_CLASS	clear_vars.mk	/^LOCAL_MODULE_CLASS:=$/;"	m
+LOCAL_MODULE_PATH	Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT_SBIN)$/;"	m
+LOCAL_MODULE_PATH	clear_vars.mk	/^LOCAL_MODULE_PATH:=$/;"	m
+LOCAL_MODULE_STEM	clear_vars.mk	/^LOCAL_MODULE_STEM:=$/;"	m
+LOCAL_MODULE_SUFFIX	clear_vars.mk	/^LOCAL_MODULE_SUFFIX:=$/;"	m
+LOCAL_MODULE_TAGS	clear_vars.mk	/^LOCAL_MODULE_TAGS:=$/;"	m
+LOCAL_NDK_VERSION	clear_vars.mk	/^LOCAL_NDK_VERSION:=$/;"	m
+LOCAL_NO_DEFAULT_COMPILER_FLAGS	clear_vars.mk	/^LOCAL_NO_DEFAULT_COMPILER_FLAGS:=$/;"	m
+LOCAL_NO_EMMA_COMPILE	clear_vars.mk	/^LOCAL_NO_EMMA_COMPILE:=$/;"	m
+LOCAL_NO_EMMA_INSTRUMENT	clear_vars.mk	/^LOCAL_NO_EMMA_INSTRUMENT:=$/;"	m
+LOCAL_NO_FDO_SUPPORT	clear_vars.mk	/^LOCAL_NO_FDO_SUPPORT :=$/;"	m
+LOCAL_NO_STANDARD_LIBRARIES	clear_vars.mk	/^LOCAL_NO_STANDARD_LIBRARIES:=$/;"	m
+LOCAL_OVERRIDES_PACKAGES	clear_vars.mk	/^LOCAL_OVERRIDES_PACKAGES:=$/;"	m
+LOCAL_PACKAGE_NAME	clear_vars.mk	/^LOCAL_PACKAGE_NAME:=$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_POST_PROCESS_COMMAND	clear_vars.mk	/^LOCAL_POST_PROCESS_COMMAND:=true$/;"	m
+LOCAL_PREBUILT_EXECUTABLES	clear_vars.mk	/^LOCAL_PREBUILT_EXECUTABLES:=$/;"	m
+LOCAL_PREBUILT_JAVA_LIBRARIES	clear_vars.mk	/^LOCAL_PREBUILT_JAVA_LIBRARIES:=$/;"	m
+LOCAL_PREBUILT_LIBS	clear_vars.mk	/^LOCAL_PREBUILT_LIBS:=$/;"	m
+LOCAL_PREBUILT_OBJ_FILES	clear_vars.mk	/^LOCAL_PREBUILT_OBJ_FILES:=$/;"	m
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES	clear_vars.mk	/^LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES:=$/;"	m
+LOCAL_PREBUILT_STRIP_COMMENTS	clear_vars.mk	/^LOCAL_PREBUILT_STRIP_COMMENTS:=$/;"	m
+LOCAL_PRELINK_MODULE	clear_vars.mk	/^LOCAL_PRELINK_MODULE:=$/;"	m
+LOCAL_PROGUARD_ENABLED	clear_vars.mk	/^LOCAL_PROGUARD_ENABLED:= # '',optonly,full,custom$/;"	m
+LOCAL_PROGUARD_FLAGS	clear_vars.mk	/^LOCAL_PROGUARD_FLAGS:=$/;"	m
+LOCAL_PROGUARD_FLAG_FILES	clear_vars.mk	/^LOCAL_PROGUARD_FLAG_FILES:=$/;"	m
+LOCAL_REQUIRED_MODULES	clear_vars.mk	/^LOCAL_REQUIRED_MODULES:=$/;"	m
+LOCAL_RESOURCE_DIR	clear_vars.mk	/^LOCAL_RESOURCE_DIR:=$/;"	m
+LOCAL_SDK_VERSION	clear_vars.mk	/^LOCAL_SDK_VERSION:=$/;"	m
+LOCAL_SHARED_LIBRARIES	clear_vars.mk	/^LOCAL_SHARED_LIBRARIES:=$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	clear_vars.mk	/^LOCAL_SRC_FILES:=$/;"	m
+LOCAL_STATIC_JAVA_LIBRARIES	clear_vars.mk	/^LOCAL_STATIC_JAVA_LIBRARIES:=$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^  LOCAL_STATIC_LIBRARIES := libcutils libc$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^  LOCAL_STATIC_LIBRARIES := libcutils$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libzipfile libunz $(EXTRA_STATIC_LIBS)$/;"	m
+LOCAL_STATIC_LIBRARIES	clear_vars.mk	/^LOCAL_STATIC_LIBRARIES:=$/;"	m
+LOCAL_STRIP_MODULE	clear_vars.mk	/^LOCAL_STRIP_MODULE:=$/;"	m
+LOCAL_SYSTEM_SHARED_LIBRARIES	clear_vars.mk	/^LOCAL_SYSTEM_SHARED_LIBRARIES:=none$/;"	m
+LOCAL_UNINSTALLABLE_MODULE	clear_vars.mk	/^LOCAL_UNINSTALLABLE_MODULE:=$/;"	m
+LOCAL_UNSTRIPPED_PATH	Android.mk	/^LOCAL_UNSTRIPPED_PATH := $(TARGET_ROOT_OUT_SBIN_UNSTRIPPED)$/;"	m
+LOCAL_UNSTRIPPED_PATH	clear_vars.mk	/^LOCAL_UNSTRIPPED_PATH:=$/;"	m
+LOCAL_WHOLE_STATIC_LIBRARIES	clear_vars.mk	/^LOCAL_WHOLE_STATIC_LIBRARIES:=$/;"	m
+LOCAL_YACCFLAGS	clear_vars.mk	/^LOCAL_YACCFLAGS:=$/;"	m
+LOOPBACK_DOWN	socket_loopback_server.c	29;"	d	file:
+LOOPBACK_UP	socket_loopback_server.c	28;"	d	file:
+LastReferenceReleased	sdbwinapi/sdb_api_instance.cpp	/^void SdbApiInstance::LastReferenceReleased() {$/;"	f	class:SdbApiInstance
+LastReferenceReleased	sdbwinapi/sdb_object_handle.cpp	/^void SdbObjectHandle::LastReferenceReleased() {$/;"	f	class:SdbObjectHandle
+Lookup	sdbwinapi/sdb_object_handle.cpp	/^SdbObjectHandle* SdbObjectHandle::Lookup(SDBAPIHANDLE sdb_hndl) {$/;"	f	class:SdbObjectHandle
+LookupObject	sdbwinapi/sdb_object_handle.h	/^obj_class* LookupObject(SDBAPIHANDLE sdb_handle) {$/;"	f
+MAKEFILE_LIST	clear_vars.mk	/^MAKEFILE_LIST := $(lastword $(MAKEFILE_LIST))$/;"	m
+MAX_LOOPER_HANDLES	sysdeps_win32.c	1352;"	d	file:
+MAX_OUT_FDS	jdwp_service.c	96;"	d	file:
+MAX_PAYLOAD	sdb.h	22;"	d
+MINCORE_POINTER_TYPE	TizenConfig.h	247;"	d
+MKID	file_sync_service.h	30;"	d
+MKID	file_sync_service.h	34;"	d
+NOW	file_sync_client.c	/^static long long NOW()$/;"	f	file:
+Next	sdbwinapi/sdb_interface_enum.cpp	/^bool SdbInterfaceEnumObject::Next(SdbInterfaceInfo* info, ULONG* size) {$/;"	f	class:SdbInterfaceEnumObject
+OS_PATH_SEPARATOR	TizenConfig.h	252;"	d
+OS_PATH_SEPARATOR	sysdeps.h	271;"	d
+OS_PATH_SEPARATOR	sysdeps.h	39;"	d
+OS_PATH_SEPARATOR_STR	sysdeps.h	272;"	d
+OS_PATH_SEPARATOR_STR	sysdeps.h	40;"	d
+OS_SHARED_LIB_FORMAT_STR	TizenConfig.h	242;"	d
+OVERRIDE_BUILT_MODULE_PATH	clear_vars.mk	/^OVERRIDE_BUILT_MODULE_PATH:=$/;"	m
+OpenEndpoint	sdbwinapi/sdb_legacy_interface.cpp	/^SDBAPIHANDLE SdbLegacyInterfaceObject::OpenEndpoint($/;"	f	class:SdbLegacyInterfaceObject
+OpenEndpoint	sdbwinusbapi/sdb_winusb_interface.cpp	/^SDBAPIHANDLE SdbWinUsbInterfaceObject::OpenEndpoint($/;"	f	class:SdbWinUsbInterfaceObject
+OpenEndpoint	sdbwinusbapi/sdb_winusb_interface.cpp	/^SDBAPIHANDLE SdbWinUsbInterfaceObject::OpenEndpoint(UCHAR endpoint_id,$/;"	f	class:SdbWinUsbInterfaceObject
+PFN_INSTSDBWINUSBINTERFACE	sdbwinapi/sdb_winusb_api.h	/^    (__cdecl *PFN_INSTSDBWINUSBINTERFACE)(const wchar_t*);$/;"	t	typeref:class:PFN_INSTSDBWINUSBINTERFACE
+PROCESS_WORKING_DIRECTORY	services.c	38;"	d	file:
+QUIT	console.c	35;"	d	file:
+Release	sdbwinapi/sdb_api_instance.h	/^   LONG Release() {$/;"	f	class:SdbApiInstance
+Release	sdbwinapi/sdb_object_handle.cpp	/^LONG SdbObjectHandle::Release() {$/;"	f	class:SdbObjectHandle
+Release	sdbwinusbapi/sdb_winusb_endpoint_object.cpp	/^LONG SdbWinUsbEndpointObject::Release() {$/;"	f	class:SdbWinUsbEndpointObject
+Release	sdbwinusbapi/sdb_winusb_interface.cpp	/^LONG SdbWinUsbInterfaceObject::Release() {$/;"	f	class:SdbWinUsbInterfaceObject
+Release	sdbwinusbapi/sdb_winusb_io_completion.cpp	/^LONG SdbWinUsbIOCompletion::Release() {$/;"	f	class:SdbWinUsbIOCompletion
+Reset	sdbwinapi/sdb_interface_enum.cpp	/^bool SdbInterfaceEnumObject::Reset() {$/;"	f	class:SdbInterfaceEnumObject
+RunLoopThread	usb_osx.c	/^void* RunLoopThread(void* unused)$/;"	f
+SDBAPIHANDLE	sdbwinapi/sdb_api.h	/^typedef void* SDBAPIHANDLE;$/;"	t
+SDBWIN_API	sdbwinapi/sdb_api.h	121;"	d
+SDBWIN_API	sdbwinapi/sdb_api.h	124;"	d
+SDBWIN_API_CLASS	sdbwinapi/sdb_api.h	122;"	d
+SDBWIN_API_CLASS	sdbwinapi/sdb_api.h	125;"	d
+SDB_CLASS	sdb.h	380;"	d
+SDB_CTL_BULK_READ	sdbwinapi/sdb_api_legacy.h	61;"	d
+SDB_CTL_BULK_WRITE	sdbwinapi/sdb_api_legacy.h	64;"	d
+SDB_CTL_GET_ENDPOINT_INFORMATION	sdbwinapi/sdb_api_legacy.h	58;"	d
+SDB_CTL_GET_SERIAL_NUMBER	sdbwinapi/sdb_api_legacy.h	67;"	d
+SDB_CTL_GET_USB_CONFIGURATION_DESCRIPTOR	sdbwinapi/sdb_api_legacy.h	52;"	d
+SDB_CTL_GET_USB_DEVICE_DESCRIPTOR	sdbwinapi/sdb_api_legacy.h	49;"	d
+SDB_CTL_GET_USB_INTERFACE_DESCRIPTOR	sdbwinapi/sdb_api_legacy.h	55;"	d
+SDB_IOCTL_BULK_READ	sdbwinapi/sdb_api_legacy.h	98;"	d
+SDB_IOCTL_BULK_WRITE	sdbwinapi/sdb_api_legacy.h	109;"	d
+SDB_IOCTL_GET_ENDPOINT_INFORMATION	sdbwinapi/sdb_api_legacy.h	91;"	d
+SDB_IOCTL_GET_SERIAL_NUMBER	sdbwinapi/sdb_api_legacy.h	116;"	d
+SDB_IOCTL_GET_USB_CONFIGURATION_DESCRIPTOR	sdbwinapi/sdb_api_legacy.h	77;"	d
+SDB_IOCTL_GET_USB_DEVICE_DESCRIPTOR	sdbwinapi/sdb_api_legacy.h	70;"	d
+SDB_IOCTL_GET_USB_INTERFACE_DESCRIPTOR	sdbwinapi/sdb_api_legacy.h	84;"	d
+SDB_LOCAL_TRANSPORT_MAX	transport_local.c	54;"	d	file:
+SDB_MUTEX	mutex_list.h	14;"	d
+SDB_MUTEX	sysdeps.h	47;"	d
+SDB_MUTEX	sysdeps_win32.c	1963;"	d	file:
+SDB_MUTEX_DEFINE	sysdeps.h	281;"	d
+SDB_MUTEX_DEFINE	sysdeps.h	44;"	d
+SDB_MUTEX_INITIALIZER	sysdeps.h	275;"	d
+SDB_PROTOCOL	sdb.h	382;"	d
+SDB_QUERY_BULK_READ_ENDPOINT_INDEX	sdbwinapi/sdb_api.h	84;"	d
+SDB_QUERY_BULK_WRITE_ENDPOINT_INDEX	sdbwinapi/sdb_api.h	81;"	d
+SDB_SERVER_VERSION	sdb.h	36;"	d
+SDB_SUBCLASS	sdb.h	381;"	d
+SDB_TRACE	sdb.h	331;"	d
+SDB_TRACING	sdb.h	355;"	d
+SDB_TRACING	sdb.h	369;"	d
+SDB_VERSION_MAJOR	sdb.h	33;"	d
+SDB_VERSION_MINOR	sdb.h	34;"	d
+SHELL_COMMAND	services.c	341;"	d	file:
+SMS4_BLOCK_SIZE	sms4.h	20;"	d
+SMS4_INCLUDED	sms4.h	19;"	d
+STRICT	sdbwinapi/stdafx.h	26;"	d
+STRICT	sdbwinusbapi/stdafx.h	26;"	d
+SYNC_DATA_MAX	file_sync_service.h	85;"	d
+S_IRGRP	TizenConfig.h	298;"	d
+S_ISLNK	sysdeps.h	86;"	d
+Save	sdbwinapi/sdb_api_private_defines.h	/^  void Save(SdbInterfaceInfo* info) const {$/;"	f	class:SdbInstanceEnumEntry
+SdbApiInstance	sdbwinapi/sdb_api_instance.cpp	/^SdbApiInstance::SdbApiInstance()$/;"	f	class:SdbApiInstance
+SdbApiInstance	sdbwinapi/sdb_api_instance.h	/^class SdbApiInstance {$/;"	c
+SdbApiInstanceMap	sdbwinapi/sdb_api_instance.h	/^typedef std::map< SDBAPIINSTANCEHANDLE, SdbApiInstance* > SdbApiInstanceMap;$/;"	t
+SdbBulkTransfer	sdbwinapi/sdb_api_legacy.h	/^  __forceinline SdbBulkTransfer() {$/;"	f	struct:SdbBulkTransfer
+SdbBulkTransfer	sdbwinapi/sdb_api_legacy.h	/^struct SdbBulkTransfer {$/;"	s
+SdbCloseHandle	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbCloseHandle(SDBAPIHANDLE sdb_handle) {$/;"	f
+SdbCreateInterface	sdbwinapi/sdb_api.cpp	/^SDBAPIHANDLE __cdecl SdbCreateInterface(GUID class_id,$/;"	f
+SdbCreateInterfaceByName	sdbwinapi/sdb_api.cpp	/^SDBAPIHANDLE __cdecl SdbCreateInterfaceByName($/;"	f
+SdbEndpointInformation	sdbwinapi/sdb_api.h	/^} SdbEndpointInformation;$/;"	t	typeref:struct:_SdbEndpointInformation
+SdbEndpointObject	sdbwinapi/sdb_endpoint_object.cpp	/^SdbEndpointObject::SdbEndpointObject(SdbInterfaceObject* parent_interf,$/;"	f	class:SdbEndpointObject
+SdbEndpointObject	sdbwinapi/sdb_endpoint_object.h	/^class SDBWIN_API_CLASS SdbEndpointObject : public SdbObjectHandle {$/;"	c
+SdbEndpointType	sdbwinapi/sdb_api.h	/^} SdbEndpointType;$/;"	t	typeref:enum:_SdbEndpointType
+SdbEndpointTypeBulk	sdbwinapi/sdb_api.h	/^  SdbEndpointTypeBulk,$/;"	e	enum:_SdbEndpointType
+SdbEndpointTypeControl	sdbwinapi/sdb_api.h	/^  SdbEndpointTypeControl,$/;"	e	enum:_SdbEndpointType
+SdbEndpointTypeInterrupt	sdbwinapi/sdb_api.h	/^  SdbEndpointTypeInterrupt,$/;"	e	enum:_SdbEndpointType
+SdbEndpointTypeInvalid	sdbwinapi/sdb_api.h	/^  SdbEndpointTypeInvalid = 0,$/;"	e	enum:_SdbEndpointType
+SdbEndpointTypeIsochronous	sdbwinapi/sdb_api.h	/^  SdbEndpointTypeIsochronous,$/;"	e	enum:_SdbEndpointType
+SdbEnumInterfaceArray	sdbwinapi/sdb_api_private_defines.h	/^typedef std::vector< SdbInstanceEnumEntry > SdbEnumInterfaceArray;$/;"	t
+SdbEnumInterfaces	sdbwinapi/sdb_api.cpp	/^SDBAPIHANDLE __cdecl SdbEnumInterfaces(GUID class_id,$/;"	f
+SdbGetDefaultBulkReadEndpointInformation	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbGetDefaultBulkReadEndpointInformation(SDBAPIHANDLE sdb_interface,$/;"	f
+SdbGetDefaultBulkWriteEndpointInformation	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbGetDefaultBulkWriteEndpointInformation(SDBAPIHANDLE sdb_interface,$/;"	f
+SdbGetEndpointInformation	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbGetEndpointInformation(SDBAPIHANDLE sdb_interface,$/;"	f
+SdbGetEndpointInterface	sdbwinapi/sdb_api.cpp	/^SDBAPIHANDLE __cdecl SdbGetEndpointInterface(SDBAPIHANDLE sdb_endpoint) {$/;"	f
+SdbGetInterfaceName	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbGetInterfaceName(SDBAPIHANDLE sdb_interface,$/;"	f
+SdbGetOvelappedIoResult	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbGetOvelappedIoResult(SDBAPIHANDLE sdb_io_completion,$/;"	f
+SdbGetSerialNumber	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbGetSerialNumber(SDBAPIHANDLE sdb_interface,$/;"	f
+SdbGetUsbConfigurationDescriptor	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbGetUsbConfigurationDescriptor(SDBAPIHANDLE sdb_interface,$/;"	f
+SdbGetUsbDeviceDescriptor	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbGetUsbDeviceDescriptor(SDBAPIHANDLE sdb_interface,$/;"	f
+SdbGetUsbInterfaceDescriptor	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbGetUsbInterfaceDescriptor(SDBAPIHANDLE sdb_interface,$/;"	f
+SdbHasOvelappedIoComplated	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbHasOvelappedIoComplated(SDBAPIHANDLE sdb_io_completion) {$/;"	f
+SdbIOCompletion	sdbwinapi/sdb_io_completion.cpp	/^SdbIOCompletion::SdbIOCompletion(SdbEndpointObject* parent_io_obj,$/;"	f	class:SdbIOCompletion
+SdbIOCompletion	sdbwinapi/sdb_io_completion.h	/^class SDBWIN_API_CLASS SdbIOCompletion : public SdbObjectHandle {$/;"	c
+SdbInstanceEnumEntry	sdbwinapi/sdb_api_private_defines.h	/^  SdbInstanceEnumEntry()$/;"	f	class:SdbInstanceEnumEntry
+SdbInstanceEnumEntry	sdbwinapi/sdb_api_private_defines.h	/^  SdbInstanceEnumEntry(const SdbInstanceEnumEntry& proto) {$/;"	f	class:SdbInstanceEnumEntry
+SdbInstanceEnumEntry	sdbwinapi/sdb_api_private_defines.h	/^  SdbInstanceEnumEntry(const wchar_t* dev_name, GUID cls_id, DWORD flgs) {$/;"	f	class:SdbInstanceEnumEntry
+SdbInstanceEnumEntry	sdbwinapi/sdb_api_private_defines.h	/^class SdbInstanceEnumEntry {$/;"	c
+SdbInterfaceEnumObject	sdbwinapi/sdb_interface_enum.cpp	/^SdbInterfaceEnumObject::SdbInterfaceEnumObject()$/;"	f	class:SdbInterfaceEnumObject
+SdbInterfaceEnumObject	sdbwinapi/sdb_interface_enum.h	/^class SdbInterfaceEnumObject : public SdbObjectHandle {$/;"	c
+SdbInterfaceInfo	sdbwinapi/sdb_api.h	/^} SdbInterfaceInfo;$/;"	t	typeref:struct:_SdbInterfaceInfo
+SdbInterfaceObject	sdbwinapi/sdb_interface.cpp	/^SdbInterfaceObject::SdbInterfaceObject(const wchar_t* interf_name)$/;"	f	class:SdbInterfaceObject
+SdbInterfaceObject	sdbwinapi/sdb_interface.h	/^class SDBWIN_API_CLASS SdbInterfaceObject : public SdbObjectHandle {$/;"	c
+SdbLegacyEndpointObject	sdbwinapi/sdb_legacy_endpoint_object.cpp	/^SdbLegacyEndpointObject::SdbLegacyEndpointObject($/;"	f	class:SdbLegacyEndpointObject
+SdbLegacyEndpointObject	sdbwinapi/sdb_legacy_endpoint_object.h	/^class SdbLegacyEndpointObject : public SdbEndpointObject {$/;"	c
+SdbLegacyIOCompletion	sdbwinapi/sdb_legacy_io_completion.cpp	/^SdbLegacyIOCompletion::SdbLegacyIOCompletion($/;"	f	class:SdbLegacyIOCompletion
+SdbLegacyIOCompletion	sdbwinapi/sdb_legacy_io_completion.h	/^class SdbLegacyIOCompletion : public SdbIOCompletion {$/;"	c
+SdbLegacyInterfaceObject	sdbwinapi/sdb_legacy_interface.cpp	/^SdbLegacyInterfaceObject::SdbLegacyInterfaceObject(const wchar_t* interf_name)$/;"	f	class:SdbLegacyInterfaceObject
+SdbLegacyInterfaceObject	sdbwinapi/sdb_legacy_interface.h	/^class SdbLegacyInterfaceObject : public SdbInterfaceObject {$/;"	c
+SdbNextInterface	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbNextInterface(SDBAPIHANDLE sdb_handle,$/;"	f
+SdbObjectHandle	sdbwinapi/sdb_object_handle.cpp	/^SdbObjectHandle::SdbObjectHandle(SdbObjectType obj_type)$/;"	f	class:SdbObjectHandle
+SdbObjectHandle	sdbwinapi/sdb_object_handle.h	/^class SDBWIN_API_CLASS SdbObjectHandle {$/;"	c
+SdbObjectHandleMap	sdbwinapi/sdb_object_handle.h	/^typedef std::map< SDBAPIHANDLE, SdbObjectHandle* > SdbObjectHandleMap;$/;"	t
+SdbObjectType	sdbwinapi/sdb_object_handle.h	/^enum SdbObjectType {$/;"	g
+SdbObjectTypeEndpoint	sdbwinapi/sdb_object_handle.h	/^  SdbObjectTypeEndpoint,$/;"	e	enum:SdbObjectType
+SdbObjectTypeInterface	sdbwinapi/sdb_object_handle.h	/^  SdbObjectTypeInterface,$/;"	e	enum:SdbObjectType
+SdbObjectTypeInterfaceEnumerator	sdbwinapi/sdb_object_handle.h	/^  SdbObjectTypeInterfaceEnumerator,$/;"	e	enum:SdbObjectType
+SdbObjectTypeIoCompletion	sdbwinapi/sdb_object_handle.h	/^  SdbObjectTypeIoCompletion,$/;"	e	enum:SdbObjectType
+SdbObjectTypeMax	sdbwinapi/sdb_object_handle.h	/^  SdbObjectTypeMax$/;"	e	enum:SdbObjectType
+SdbOpenAccessType	sdbwinapi/sdb_api.h	/^} SdbOpenAccessType;$/;"	t	typeref:enum:_SdbOpenAccessType
+SdbOpenAccessTypeQueryInfo	sdbwinapi/sdb_api.h	/^  SdbOpenAccessTypeQueryInfo,$/;"	e	enum:_SdbOpenAccessType
+SdbOpenAccessTypeRead	sdbwinapi/sdb_api.h	/^  SdbOpenAccessTypeRead,$/;"	e	enum:_SdbOpenAccessType
+SdbOpenAccessTypeReadWrite	sdbwinapi/sdb_api.h	/^  SdbOpenAccessTypeReadWrite,$/;"	e	enum:_SdbOpenAccessType
+SdbOpenAccessTypeWrite	sdbwinapi/sdb_api.h	/^  SdbOpenAccessTypeWrite,$/;"	e	enum:_SdbOpenAccessType
+SdbOpenDefaultBulkReadEndpoint	sdbwinapi/sdb_api.cpp	/^SDBAPIHANDLE __cdecl SdbOpenDefaultBulkReadEndpoint(SDBAPIHANDLE sdb_interface,$/;"	f
+SdbOpenDefaultBulkWriteEndpoint	sdbwinapi/sdb_api.cpp	/^SDBAPIHANDLE __cdecl SdbOpenDefaultBulkWriteEndpoint(SDBAPIHANDLE sdb_interface,$/;"	f
+SdbOpenEndpoint	sdbwinapi/sdb_api.cpp	/^SDBAPIHANDLE __cdecl SdbOpenEndpoint(SDBAPIHANDLE sdb_interface,$/;"	f
+SdbOpenSharingMode	sdbwinapi/sdb_api.h	/^} SdbOpenSharingMode;$/;"	t	typeref:enum:_SdbOpenSharingMode
+SdbOpenSharingModeExclusive	sdbwinapi/sdb_api.h	/^  SdbOpenSharingModeExclusive,$/;"	e	enum:_SdbOpenSharingMode
+SdbOpenSharingModeRead	sdbwinapi/sdb_api.h	/^  SdbOpenSharingModeRead,$/;"	e	enum:_SdbOpenSharingMode
+SdbOpenSharingModeReadWrite	sdbwinapi/sdb_api.h	/^  SdbOpenSharingModeReadWrite,$/;"	e	enum:_SdbOpenSharingMode
+SdbOpenSharingModeWrite	sdbwinapi/sdb_api.h	/^  SdbOpenSharingModeWrite,$/;"	e	enum:_SdbOpenSharingMode
+SdbQueryEndpointInformation	sdbwinapi/sdb_api_legacy.h	/^struct SdbQueryEndpointInformation {$/;"	s
+SdbQueryInformationEndpoint	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbQueryInformationEndpoint(SDBAPIHANDLE sdb_endpoint,$/;"	f
+SdbReadEndpointAsync	sdbwinapi/sdb_api.cpp	/^SDBAPIHANDLE __cdecl SdbReadEndpointAsync(SDBAPIHANDLE sdb_endpoint,$/;"	f
+SdbReadEndpointSync	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbReadEndpointSync(SDBAPIHANDLE sdb_endpoint,$/;"	f
+SdbResetInterfaceEnum	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbResetInterfaceEnum(SDBAPIHANDLE sdb_handle) {$/;"	f
+SdbWinUsbEndpointObject	sdbwinusbapi/sdb_winusb_endpoint_object.cpp	/^SdbWinUsbEndpointObject::SdbWinUsbEndpointObject($/;"	f	class:SdbWinUsbEndpointObject
+SdbWinUsbEndpointObject	sdbwinusbapi/sdb_winusb_endpoint_object.h	/^class SdbWinUsbEndpointObject : public SdbEndpointObject {$/;"	c
+SdbWinUsbIOCompletion	sdbwinusbapi/sdb_winusb_io_completion.cpp	/^SdbWinUsbIOCompletion::SdbWinUsbIOCompletion($/;"	f	class:SdbWinUsbIOCompletion
+SdbWinUsbIOCompletion	sdbwinusbapi/sdb_winusb_io_completion.h	/^class SdbWinUsbIOCompletion : public SdbIOCompletion {$/;"	c
+SdbWinUsbInterfaceObject	sdbwinusbapi/sdb_winusb_interface.cpp	/^SdbWinUsbInterfaceObject::SdbWinUsbInterfaceObject(const wchar_t* interf_name)$/;"	f	class:SdbWinUsbInterfaceObject
+SdbWinUsbInterfaceObject	sdbwinusbapi/sdb_winusb_interface.h	/^class SdbWinUsbInterfaceObject : public SdbInterfaceObject {$/;"	c
+SdbWriteEndpointAsync	sdbwinapi/sdb_api.cpp	/^SDBAPIHANDLE __cdecl SdbWriteEndpointAsync(SDBAPIHANDLE sdb_endpoint,$/;"	f
+SdbWriteEndpointSync	sdbwinapi/sdb_api.cpp	/^bool __cdecl SdbWriteEndpointSync(SDBAPIHANDLE sdb_endpoint,$/;"	f
+Set	sdbwinapi/sdb_api_private_defines.h	/^  void Set(const wchar_t* dev_name, GUID cls_id, DWORD flgs) {$/;"	f	class:SdbInstanceEnumEntry
+SetTimeout	sdbwinusbapi/sdb_winusb_endpoint_object.cpp	/^bool SdbWinUsbEndpointObject::SetTimeout(ULONG timeout) {$/;"	f	class:SdbWinUsbEndpointObject
+SetWriteBuffer	sdbwinapi/sdb_api_legacy.h	/^  void SetWriteBuffer(void* buffer) {$/;"	f	struct:SdbBulkTransfer
+SocketPair	sysdeps_win32.c	/^typedef struct SocketPairRec_*  SocketPair;$/;"	t	typeref:struct:SocketPairRec_	file:
+SocketPairRec	sysdeps_win32.c	/^} SocketPairRec;$/;"	t	typeref:struct:SocketPairRec_	file:
+SocketPairRec_	sysdeps_win32.c	/^typedef struct SocketPairRec_ $/;"	s	file:
+SyncRead	sdbwinapi/sdb_endpoint_object.cpp	/^bool SdbEndpointObject::SyncRead(void* buffer,$/;"	f	class:SdbEndpointObject
+SyncWrite	sdbwinapi/sdb_endpoint_object.cpp	/^bool SdbEndpointObject::SyncWrite(void* buffer,$/;"	f	class:SdbEndpointObject
+TRACE	fdevent.c	31;"	d	file:
+TRACE_JDWP	sdb.h	/^    TRACE_JDWP,$/;"	e	enum:__anon1
+TRACE_PACKETS	sdb.h	/^    TRACE_PACKETS,$/;"	e	enum:__anon1
+TRACE_RWX	sdb.h	/^    TRACE_RWX,$/;"	e	enum:__anon1
+TRACE_SDB	sdb.h	/^    TRACE_SDB = 0,$/;"	e	enum:__anon1
+TRACE_SOCKETS	sdb.h	/^    TRACE_SOCKETS,$/;"	e	enum:__anon1
+TRACE_SYNC	sdb.h	/^    TRACE_SYNC,$/;"	e	enum:__anon1
+TRACE_SYSDEPS	sdb.h	/^    TRACE_SYSDEPS,$/;"	e	enum:__anon1
+TRACE_TAG	commandline.c	35;"	d	file:
+TRACE_TAG	file_sync_service.c	30;"	d	file:
+TRACE_TAG	jdwp_service.c	3;"	d	file:
+TRACE_TAG	remount_service.c	27;"	d	file:
+TRACE_TAG	sdb.c	17;"	d	file:
+TRACE_TAG	sdb_client.c	15;"	d	file:
+TRACE_TAG	services.c	25;"	d	file:
+TRACE_TAG	sockets.c	26;"	d	file:
+TRACE_TAG	sysdeps_win32.c	6;"	d	file:
+TRACE_TAG	transport.c	1077;"	d	file:
+TRACE_TAG	transport.c	1078;"	d	file:
+TRACE_TAG	transport.c	25;"	d	file:
+TRACE_TAG	transport_local.c	31;"	d	file:
+TRACE_TAG	transport_usb.c	23;"	d	file:
+TRACE_TAG	usb_libusb.c	37;"	d	file:
+TRACE_TAG	usb_linux.c	41;"	d	file:
+TRACE_TAG	usb_linux_client.c	29;"	d	file:
+TRACE_TAG	usb_osx.c	29;"	d	file:
+TRACE_TAG	usb_vendors.c	36;"	d	file:
+TRACE_TAG	usb_windows.c	26;"	d	file:
+TRACE_TRANSPORT	sdb.h	/^    TRACE_TRANSPORT,$/;"	e	enum:__anon1
+TRACE_USB	sdb.h	/^    TRACE_USB,$/;"	e	enum:__anon1
+Type	sdbwinapi/sdb_endpoint_object.h	/^  static SdbObjectType Type() {$/;"	f	class:SdbEndpointObject
+Type	sdbwinapi/sdb_interface.h	/^  static SdbObjectType Type() {$/;"	f	class:SdbInterfaceObject
+Type	sdbwinapi/sdb_interface_enum.h	/^  static SdbObjectType Type() {$/;"	f	class:SdbInterfaceEnumObject
+Type	sdbwinapi/sdb_io_completion.h	/^  static SdbObjectType Type() {$/;"	f	class:SdbIOCompletion
+USB_SRCS	Android.mk	/^  USB_SRCS := usb_libusb.c$/;"	m
+USB_SRCS	Android.mk	/^  USB_SRCS := usb_linux.c$/;"	m
+USB_SRCS	Android.mk	/^  USB_SRCS := usb_osx.c$/;"	m
+USB_SRCS	Android.mk	/^  USB_SRCS := usb_windows.c$/;"	m
+USB_SRCS	Android.mk	/^USB_SRCS :=$/;"	m
+USE_SYSDEPS_WIN32	Android.mk	/^    USE_SYSDEPS_WIN32 := 1$/;"	m
+VENDOR_COUNT_MAX	usb_vendors.c	119;"	d	file:
+VENDOR_ID_ACER	usb_vendors.c	51;"	d	file:
+VENDOR_ID_ASUS	usb_vendors.c	83;"	d	file:
+VENDOR_ID_DELL	usb_vendors.c	57;"	d	file:
+VENDOR_ID_FOXCONN	usb_vendors.c	55;"	d	file:
+VENDOR_ID_GARMIN_ASUS	usb_vendors.c	61;"	d	file:
+VENDOR_ID_GOOGLE	usb_vendors.c	39;"	d	file:
+VENDOR_ID_HTC	usb_vendors.c	41;"	d	file:
+VENDOR_ID_HUAWEI	usb_vendors.c	49;"	d	file:
+VENDOR_ID_KT_TECH	usb_vendors.c	81;"	d	file:
+VENDOR_ID_KYOCERA	usb_vendors.c	67;"	d	file:
+VENDOR_ID_LGE	usb_vendors.c	47;"	d	file:
+VENDOR_ID_MOTOROLA	usb_vendors.c	45;"	d	file:
+VENDOR_ID_NEC	usb_vendors.c	73;"	d	file:
+VENDOR_ID_NVIDIA	usb_vendors.c	59;"	d	file:
+VENDOR_ID_PANTECH	usb_vendors.c	69;"	d	file:
+VENDOR_ID_PHILIPS	usb_vendors.c	85;"	d	file:
+VENDOR_ID_PMC	usb_vendors.c	75;"	d	file:
+VENDOR_ID_QUALCOMM	usb_vendors.c	71;"	d	file:
+VENDOR_ID_SAMSUNG	usb_vendors.c	43;"	d	file:
+VENDOR_ID_SHARP	usb_vendors.c	63;"	d	file:
+VENDOR_ID_SK_TELESYS	usb_vendors.c	79;"	d	file:
+VENDOR_ID_SONY_ERICSSON	usb_vendors.c	53;"	d	file:
+VENDOR_ID_TOSHIBA	usb_vendors.c	77;"	d	file:
+VENDOR_ID_ZTE	usb_vendors.c	65;"	d	file:
+VMS_PATH	sdb.h	426;"	d
+WIN32	TizenConfig.h	228;"	d
+WIN32_FH_BASE	sysdeps_win32.c	115;"	d	file:
+WIN32_LEAN_AND_MEAN	usb_vendors.c	22;"	d	file:
+WIN32_MAX_FHS	sysdeps_win32.c	117;"	d	file:
+WINVER	sdbwinapi/stdafx.h	32;"	d
+WINVER	sdbwinusbapi/stdafx.h	32;"	d
+WIPE_DATA	commandline.c	/^    WIPE_DATA,$/;"	e	enum:__anon2	file:
+_ANDROID_CONFIG_H	TizenConfig.h	26;"	d
+_APS_NEXT_COMMAND_VALUE	sdbwinapi/Resource.h	30;"	d
+_APS_NEXT_COMMAND_VALUE	sdbwinusbapi/Resource.h	30;"	d
+_APS_NEXT_CONTROL_VALUE	sdbwinapi/Resource.h	31;"	d
+_APS_NEXT_CONTROL_VALUE	sdbwinusbapi/Resource.h	31;"	d
+_APS_NEXT_RESOURCE_VALUE	sdbwinapi/Resource.h	29;"	d
+_APS_NEXT_RESOURCE_VALUE	sdbwinusbapi/Resource.h	29;"	d
+_APS_NEXT_SYMED_VALUE	sdbwinapi/Resource.h	32;"	d
+_APS_NEXT_SYMED_VALUE	sdbwinusbapi/Resource.h	32;"	d
+_ATL_ALL_WARNINGS	sdbwinapi/stdafx.h	59;"	d
+_ATL_ALL_WARNINGS	sdbwinusbapi/stdafx.h	59;"	d
+_ATL_APARTMENT_THREADED	sdbwinapi/stdafx.h	53;"	d
+_ATL_APARTMENT_THREADED	sdbwinusbapi/stdafx.h	53;"	d
+_ATL_CSTRING_EXPLICIT_CONSTRUCTORS	sdbwinapi/stdafx.h	56;"	d
+_ATL_CSTRING_EXPLICIT_CONSTRUCTORS	sdbwinusbapi/stdafx.h	56;"	d
+_ATL_NOFORCE_MANIFEST	sdbwinapi/stdafx.h	49;"	d
+_ATL_NOFORCE_MANIFEST	sdbwinusbapi/stdafx.h	49;"	d
+_ATL_NO_AUTOMATIC_NAMESPACE	sdbwinapi/stdafx.h	54;"	d
+_ATL_NO_AUTOMATIC_NAMESPACE	sdbwinusbapi/stdafx.h	54;"	d
+_AtlModule	sdbwinapi/SdbWinApi.cpp	/^CSdbWinApiModule _AtlModule;$/;"	v
+_AtlModule	sdbwinusbapi/SdbWinUsbApi.cpp	/^CSdbWinApiModule _AtlModule;$/;"	v
+_CRT_NOFORCE_MANIFEST	sdbwinapi/stdafx.h	51;"	d
+_CRT_NOFORCE_MANIFEST	sdbwinusbapi/stdafx.h	51;"	d
+_FILE_OFFSET_BITS	TizenConfig.h	176;"	d
+_FILE_SYNC_SERVICE_H_	file_sync_service.h	18;"	d
+_LARGEFILE_SOURCE	TizenConfig.h	177;"	d
+_SDB_CLIENT_H_	sdb_client.h	2;"	d
+_SDB_SYSDEPS_H	sysdeps.h	21;"	d
+_SDB_UTILS_H	utils.h	17;"	d
+_STL_NOFORCE_MANIFEST	sdbwinapi/stdafx.h	50;"	d
+_STL_NOFORCE_MANIFEST	sdbwinusbapi/stdafx.h	50;"	d
+_SdbEndpointInformation	sdbwinapi/sdb_api.h	/^typedef struct _SdbEndpointInformation {$/;"	s
+_SdbEndpointType	sdbwinapi/sdb_api.h	/^typedef enum _SdbEndpointType {$/;"	g
+_SdbInterfaceInfo	sdbwinapi/sdb_api.h	/^typedef struct _SdbInterfaceInfo {$/;"	s
+_SdbOpenAccessType	sdbwinapi/sdb_api.h	/^typedef enum _SdbOpenAccessType {$/;"	g
+_SdbOpenSharingMode	sdbwinapi/sdb_api.h	/^typedef enum _SdbOpenSharingMode {$/;"	g
+_WIN32	TizenConfig.h	229;"	d
+_WIN32	sysdeps.h	24;"	d
+_WIN32_IE	sdbwinapi/stdafx.h	44;"	d
+_WIN32_IE	sdbwinusbapi/stdafx.h	44;"	d
+_WIN32_WINDOWS	sdbwinapi/stdafx.h	40;"	d
+_WIN32_WINDOWS	sdbwinusbapi/stdafx.h	40;"	d
+_WIN32_WINNT	TizenConfig.h	230;"	d
+_WIN32_WINNT	sdbwinapi/stdafx.h	36;"	d
+_WIN32_WINNT	sdbwinusbapi/stdafx.h	36;"	d
+__CUTILS_SOCKETS_H	sockets.h	18;"	d
+__FDEVENT_H	fdevent.h	18;"	d
+__SDB_H	sdb.h	18;"	d
+__SOCKET_LOCAL_H	socket_local.h	18;"	d
+__USB_VENDORS_H	usb_vendors.h	18;"	d
+__sdb_error	sdb_client.c	/^static char __sdb_error[256] = { 0 };$/;"	v	file:
+__sdb_serial	sdb_client.c	/^static const char* __sdb_serial = NULL;$/;"	v	file:
+__sdb_server_port	sdb_client.c	/^static int __sdb_server_port = DEFAULT_SDB_PORT;$/;"	v	file:
+__sdb_transport	sdb_client.c	/^static transport_type __sdb_transport = kTransportAny;$/;"	v	file:
+__swap_uint32	file_sync_service.h	/^static inline unsigned __swap_uint32(unsigned x) $/;"	f
+_cleanup_winsock	sysdeps_win32.c	/^_cleanup_winsock( void )$/;"	f	file:
+_event_file_peek	sysdeps_win32.c	/^static int  _event_file_peek( EventHook  hook )$/;"	f	file:
+_event_file_prepare	sysdeps_win32.c	/^static void  _event_file_prepare( EventHook  hook )$/;"	f	file:
+_event_socket_check	sysdeps_win32.c	/^static int  _event_socket_check( EventHook  hook )$/;"	f	file:
+_event_socket_peek	sysdeps_win32.c	/^static int  _event_socket_peek( EventHook  hook )$/;"	f	file:
+_event_socket_prepare	sysdeps_win32.c	/^static void  _event_socket_prepare( EventHook  hook )$/;"	f	file:
+_event_socket_start	sysdeps_win32.c	/^static int _event_socket_start( EventHook  hook )$/;"	f	file:
+_event_socket_stop	sysdeps_win32.c	/^static void _event_socket_stop( EventHook  hook )$/;"	f	file:
+_event_socket_verify	sysdeps_win32.c	/^static void  _event_socket_verify( EventHook  hook, WSANETWORKEVENTS*  evts )$/;"	f	file:
+_event_socketpair_peek	sysdeps_win32.c	/^static int  _event_socketpair_peek( EventHook  hook )$/;"	f	file:
+_event_socketpair_prepare	sysdeps_win32.c	/^static void  _event_socketpair_prepare( EventHook  hook )$/;"	f	file:
+_event_socketpair_start	sysdeps_win32.c	/^ static int  _event_socketpair_start( EventHook  hook )$/;"	f	file:
+_fh_alloc	sysdeps_win32.c	/^_fh_alloc( FHClass  clazz )$/;"	f	file:
+_fh_close	sysdeps_win32.c	/^    int  (*_fh_close)( FH  f );$/;"	m	struct:FHClassRec_	file:
+_fh_close	sysdeps_win32.c	/^_fh_close( FH   f )$/;"	f	file:
+_fh_file_class	sysdeps_win32.c	/^static const FHClassRec   _fh_file_class;$/;"	v	file:
+_fh_file_class	sysdeps_win32.c	/^static const FHClassRec  _fh_file_class =$/;"	v	file:
+_fh_file_close	sysdeps_win32.c	/^_fh_file_close( FH  f )$/;"	f	file:
+_fh_file_hook	sysdeps_win32.c	/^static void  _fh_file_hook( FH  f, int  events, EventHook  hook )$/;"	f	file:
+_fh_file_init	sysdeps_win32.c	/^_fh_file_init( FH  f )$/;"	f	file:
+_fh_file_lseek	sysdeps_win32.c	/^_fh_file_lseek( FH  f, int  pos, int  origin )$/;"	f	file:
+_fh_file_read	sysdeps_win32.c	/^_fh_file_read( FH  f,  void*  buf, int   len )$/;"	f	file:
+_fh_file_write	sysdeps_win32.c	/^_fh_file_write( FH  f,  const void*  buf, int   len )$/;"	f	file:
+_fh_from_int	sysdeps_win32.c	/^_fh_from_int( int   fd )$/;"	f	file:
+_fh_hook	sysdeps_win32.c	/^    void (*_fh_hook) ( FH  f, int  events, EventHook  hook );$/;"	m	struct:FHClassRec_	file:
+_fh_init	sysdeps_win32.c	/^    void (*_fh_init) ( FH  f );$/;"	m	struct:FHClassRec_	file:
+_fh_lseek	sysdeps_win32.c	/^    int  (*_fh_lseek)( FH  f, int  pos, int  origin );$/;"	m	struct:FHClassRec_	file:
+_fh_read	sysdeps_win32.c	/^    int  (*_fh_read) ( FH  f, void*  buf, int  len );$/;"	m	struct:FHClassRec_	file:
+_fh_socket_class	sysdeps_win32.c	/^static const FHClassRec   _fh_socket_class;$/;"	v	file:
+_fh_socket_class	sysdeps_win32.c	/^static const FHClassRec  _fh_socket_class =$/;"	v	file:
+_fh_socket_close	sysdeps_win32.c	/^_fh_socket_close( FH  f )$/;"	f	file:
+_fh_socket_hook	sysdeps_win32.c	/^static void  _fh_socket_hook( FH  f, int  events, EventHook  hook )$/;"	f	file:
+_fh_socket_init	sysdeps_win32.c	/^_fh_socket_init( FH  f )$/;"	f	file:
+_fh_socket_lseek	sysdeps_win32.c	/^_fh_socket_lseek( FH  f, int pos, int origin )$/;"	f	file:
+_fh_socket_read	sysdeps_win32.c	/^_fh_socket_read( FH  f, void*  buf, int  len )$/;"	f	file:
+_fh_socket_write	sysdeps_win32.c	/^_fh_socket_write( FH  f, const void*  buf, int  len )$/;"	f	file:
+_fh_socketpair_class	sysdeps_win32.c	/^static const FHClassRec  _fh_socketpair_class =$/;"	v	file:
+_fh_socketpair_close	sysdeps_win32.c	/^_fh_socketpair_close( FH  f )$/;"	f	file:
+_fh_socketpair_hook	sysdeps_win32.c	/^static void  _fh_socketpair_hook( FH  fh, int  events, EventHook  hook )$/;"	f	file:
+_fh_socketpair_init	sysdeps_win32.c	/^void _fh_socketpair_init( FH  f )$/;"	f
+_fh_socketpair_lseek	sysdeps_win32.c	/^_fh_socketpair_lseek( FH  f, int pos, int  origin )$/;"	f	file:
+_fh_socketpair_read	sysdeps_win32.c	/^_fh_socketpair_read( FH  f, void* buf, int  len )$/;"	f	file:
+_fh_socketpair_write	sysdeps_win32.c	/^_fh_socketpair_write( FH  f, const void*  buf, int  len )$/;"	f	file:
+_fh_to_int	sysdeps_win32.c	/^_fh_to_int( FH  f )$/;"	f	file:
+_fh_write	sysdeps_win32.c	/^    int  (*_fh_write)( FH  f, const void*  buf, int  len );$/;"	m	struct:FHClassRec_	file:
+_forceAtlDllManifest	sdbwinapi/SdbWinApi.cpp	/^int _forceAtlDllManifest;$/;"	v
+_forceCRTManifest	sdbwinapi/SdbWinApi.cpp	/^int _forceCRTManifest;$/;"	v
+_forceMFCManifest	sdbwinapi/SdbWinApi.cpp	/^int _forceMFCManifest;$/;"	v
+_free_hooks	sysdeps_win32.c	/^static EventHook  _free_hooks;$/;"	v	file:
+_init_winsock	sysdeps_win32.c	/^_init_winsock( void )$/;"	f	file:
+_jdwp_control	jdwp_service.c	/^static JdwpControl   _jdwp_control;$/;"	v	file:
+_jdwp_list	jdwp_service.c	/^static JdwpProcess  _jdwp_list;$/;"	v	file:
+_jdwp_trackers_list	jdwp_service.c	/^static JdwpTracker   _jdwp_trackers_list;$/;"	v	file:
+_sdb_connect	sdb_client.c	/^int _sdb_connect(const char *service)$/;"	f
+_socket_set_errno	sysdeps_win32.c	/^_socket_set_errno( void )$/;"	f	file:
+_socket_wanted_to_flags	sysdeps_win32.c	/^static int  _socket_wanted_to_flags( int  wanted )$/;"	f	file:
+_win32_fh_count	sysdeps_win32.c	/^static  int          _win32_fh_count;$/;"	v	file:
+_win32_fhs	sysdeps_win32.c	/^static  FHRec        _win32_fhs[ WIN32_MAX_FHS ];$/;"	v	file:
+_win32_lock	sysdeps_win32.c	/^static sdb_mutex_t   _win32_lock;$/;"	v	file:
+_winsock_init	sysdeps_win32.c	/^static int  _winsock_init;$/;"	v	file:
+a2b_bip	sysdeps_win32.c	/^    BipBufferRec  a2b_bip;$/;"	m	struct:SocketPairRec_	file:
+a_end	sysdeps_win32.c	/^    int                a_end;$/;"	m	struct:BipBufferRec_	file:
+a_fd	sysdeps_win32.c	/^    FH            a_fd;$/;"	m	struct:SocketPairRec_	file:
+a_start	sysdeps_win32.c	/^    int                a_start;$/;"	m	struct:BipBufferRec_	file:
+accept	sysdeps.h	212;"	d
+accept	sysdeps.h	213;"	d
+accept	sysdeps.h	391;"	d
+accept	sysdeps.h	392;"	d
+accept	sysdeps_win32.c	751;"	d	file:
+acquire_one_transport	transport.c	/^atransport *acquire_one_transport(int state, transport_type ttype, const char* serial, char** error_out)$/;"	f
+action	transport.c	/^    int         action;$/;"	m	struct:tmsg	file:
+add_transport_disconnect	transport.c	/^void add_transport_disconnect(atransport*  t, adisconnect*  dis)$/;"	f
+adisconnect	sdb.h	/^struct  adisconnect$/;"	s
+adisconnect	sdb.h	/^typedef struct adisconnect  adisconnect;$/;"	t	typeref:struct:adisconnect
+alistener	sdb.h	/^struct alistener$/;"	s
+alistener	sdb.h	/^typedef struct alistener alistener;$/;"	t	typeref:struct:alistener
+alpha_length	framebuffer_service.c	/^    unsigned int alpha_length;$/;"	m	struct:fbinfo	file:
+alpha_offset	framebuffer_service.c	/^    unsigned int alpha_offset;$/;"	m	struct:fbinfo	file:
+already_registered	usb_libusb.c	/^already_registered(usb_handle *uh)$/;"	f
+amessage	sdb.h	/^struct amessage {$/;"	s
+amessage	sdb.h	/^typedef struct amessage amessage;$/;"	t	typeref:struct:amessage
+android_get_control_socket	sockets.h	/^static inline int android_get_control_socket(const char *name)$/;"	f
+apacket	sdb.h	/^struct apacket$/;"	s
+apacket	sdb.h	/^typedef struct apacket apacket;$/;"	t	typeref:struct:apacket
+aremotesocket	sockets.c	/^typedef struct aremotesocket {$/;"	s	file:
+aremotesocket	sockets.c	/^} aremotesocket;$/;"	t	typeref:struct:aremotesocket	file:
+arg	fdevent.h	/^    void *arg;$/;"	m	struct:fdevent
+arg	sysdeps.h	/^    void *arg;$/;"	m	struct:fdevent
+arg0	sdb.h	/^    unsigned arg0;          \/* first argument                   *\/$/;"	m	struct:amessage
+arg1	sdb.h	/^    unsigned arg1;          \/* second argument                  *\/$/;"	m	struct:amessage
+aservice	sdb.h	/^typedef struct aservice aservice;$/;"	t	typeref:struct:aservice
+asocket	sdb.h	/^struct asocket {$/;"	s
+asocket	sdb.h	/^typedef struct asocket asocket;$/;"	t	typeref:struct:asocket
+assert	sysdeps_win32.c	11;"	d	file:
+atransport	sdb.h	/^struct atransport$/;"	s
+atransport	sdb.h	/^typedef struct atransport atransport;$/;"	t	typeref:struct:atransport
+aux	sysdeps_win32.c	/^    void*        aux;$/;"	m	struct:EventHookRec_	file:
+b2a_bip	sysdeps_win32.c	/^    BipBufferRec  b2a_bip;$/;"	m	struct:SocketPairRec_	file:
+b_end	sysdeps_win32.c	/^    int                b_end;$/;"	m	struct:BipBufferRec_	file:
+badname	usb_linux.c	/^static inline int badname(const char *name)$/;"	f	file:
+bip_buffer_close	sysdeps_win32.c	/^bip_buffer_close( BipBuffer  bip )$/;"	f	file:
+bip_buffer_done	sysdeps_win32.c	/^bip_buffer_done( BipBuffer  bip )$/;"	f	file:
+bip_buffer_init	sysdeps_win32.c	/^bip_buffer_init( BipBuffer  buffer )$/;"	f	file:
+bip_buffer_read	sysdeps_win32.c	/^bip_buffer_read( BipBuffer  bip, void*  dst, int  len )$/;"	f	file:
+bip_buffer_write	sysdeps_win32.c	/^bip_buffer_write( BipBuffer  bip, const void* src, int  len )$/;"	f	file:
+blue_length	framebuffer_service.c	/^    unsigned int blue_length;$/;"	m	struct:fbinfo	file:
+blue_offset	framebuffer_service.c	/^    unsigned int blue_offset;$/;"	m	struct:fbinfo	file:
+bool	sdbwinapi/sdb_api.h	/^  typedef int bool;$/;"	t
+bool	sdbwinapi/sdb_api_legacy.h	/^  typedef int bool;$/;"	t
+bpp	framebuffer_service.c	/^    unsigned int bpp;$/;"	m	struct:fbinfo	file:
+buff	sysdeps_win32.c	/^    unsigned char      buff[ BIP_BUFFER_SIZE ];$/;"	m	struct:BipBufferRec_	file:
+buff_add	utils.c	/^buff_add  (char*  buff, char*  buffEnd, const char*  format, ... )$/;"	f
+buff_addb	utils.c	/^buff_addb (char*  buff, char*  buffEnd, const void*  data, int  len)$/;"	f
+buff_addc	utils.c	/^buff_addc (char*  buff, char*  buffEnd, int  c)$/;"	f
+buff_adds	utils.c	/^buff_adds (char*  buff, char*  buffEnd, const char*  s)$/;"	f
+build_local_name	sdb.c	/^void build_local_name(char* target_str, size_t target_size, int server_port)$/;"	f
+build_path	usb_vendors.c	/^int build_path(char* buff, size_t len, const char* format, const char* home)$/;"	f
+builtInVendorIds	usb_vendors.c	/^int builtInVendorIds[] = {$/;"	v
+bulkIn	usb_osx.c	/^    UInt8                     bulkIn;$/;"	m	struct:usb_handle	file:
+bulkOut	usb_osx.c	/^    UInt8                     bulkOut;$/;"	m	struct:usb_handle	file:
+can_read	sysdeps_win32.c	/^    int                can_read;   \/* boolean *\/$/;"	m	struct:BipBufferRec_	file:
+can_write	sysdeps_win32.c	/^    int                can_write;  \/* boolean *\/$/;"	m	struct:BipBufferRec_	file:
+check	sysdeps_win32.c	/^    int         (*check)  ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+check_data	transport.c	/^int check_data(apacket *p)$/;"	f
+check_device	usb_libusb.c	/^check_device(libusb_device *dev) $/;"	f
+check_device_connected	usb_libusb.c	/^check_device_connected(struct usb_handle *uh)$/;"	f
+check_header	transport.c	/^int check_header(apacket *p)$/;"	f
+check_usb_interface	usb_libusb.c	/^check_usb_interface(libusb_interface *interface,$/;"	f
+check_usb_interfaces	usb_libusb.c	/^check_usb_interfaces(libusb_config_descriptor *config,$/;"	f
+class_id	sdbwinapi/sdb_api.h	/^  GUID          class_id;$/;"	m	struct:_SdbInterfaceInfo
+class_id	sdbwinapi/sdb_api_private_defines.h	/^  GUID class_id() const {$/;"	f	class:SdbInstanceEnumEntry
+class_id_	sdbwinapi/sdb_api_private_defines.h	/^  GUID          class_id_;$/;"	m	class:SdbInstanceEnumEntry
+clazz	sysdeps_win32.c	/^    FHClass    clazz;$/;"	m	struct:FHRec_	file:
+client_socket_thread	transport_local.c	/^static void *client_socket_thread(void *x)$/;"	f	file:
+close	sdb.h	/^    void (*close)(asocket *s);$/;"	m	struct:asocket
+close	sdb.h	/^    void (*close)(atransport *t);$/;"	m	struct:atransport
+close	sysdeps.h	123;"	d
+close	sysdeps.h	124;"	d
+close	sysdeps.h	340;"	d
+close	sysdeps.h	341;"	d
+close_all_sockets	sockets.c	/^void close_all_sockets(atransport *t)$/;"	f
+close_on_exec	sysdeps.h	/^static __inline__ void  close_on_exec(int  fd)$/;"	f
+close_usb_devices	transport.c	/^void close_usb_devices()$/;"	f
+closed	sysdeps_win32.c	/^    int                closed;$/;"	m	struct:BipBufferRec_	file:
+closing	sdb.h	/^    int    closing;$/;"	m	struct:asocket
+command	sdb.h	/^    unsigned command;       \/* command identifier constant      *\/$/;"	m	struct:amessage
+cond	transport.c	/^static pthread_cond_t cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+connect_device	sdb.c	/^void connect_device(char* host, char* buffer, int buffer_size)$/;"	f
+connect_emulator	sdb.c	/^void connect_emulator(char* port_spec, char* buffer, int buffer_size)$/;"	f
+connect_to	sdb.h	/^    const char *connect_to;$/;"	m	struct:alistener
+connect_to_console	console.c	/^static int  connect_to_console(void)$/;"	f	file:
+connect_to_remote	sockets.c	/^void connect_to_remote(asocket *s, const char *destination)$/;"	f
+connect_to_smartsocket	sockets.c	/^void connect_to_smartsocket(asocket *s)$/;"	f
+connection_state	sdb.h	/^    int connection_state;$/;"	m	struct:atransport
+connection_state_name	sdb.c	/^static char *connection_state_name(atransport *t)$/;"	f	file:
+cookie	services.c	/^    void *cookie;$/;"	m	struct:stinfo	file:
+copy_local_dir_remote	file_sync_client.c	/^static int copy_local_dir_remote(int fd, const char *lpath, const char *rpath, int checktimestamps, int listonly)$/;"	f	file:
+copy_remote_dir_local	file_sync_client.c	/^static int copy_remote_dir_local(int fd, const char *rpath, const char *lpath,$/;"	f	file:
+copyinfo	file_sync_client.c	/^struct copyinfo$/;"	s	file:
+copyinfo	file_sync_client.c	/^typedef struct copyinfo copyinfo;$/;"	t	typeref:struct:copyinfo	file:
+creat	sysdeps.h	383;"	d
+creat	sysdeps.h	384;"	d
+create_device_tracker	transport.c	/^create_device_tracker(void)$/;"	f
+create_host_service_socket	sockets.c	/^static asocket *create_host_service_socket(const char *name, const char* serial)$/;"	f	file:
+create_jdwp_connection_fd	jdwp_service.c	/^create_jdwp_connection_fd(int  pid)$/;"	f
+create_jdwp_service_socket	jdwp_service.c	/^create_jdwp_service_socket( void )$/;"	f
+create_jdwp_tracker_service_socket	jdwp_service.c	/^create_jdwp_tracker_service_socket( void )$/;"	f
+create_local_service_socket	sockets.c	/^asocket *create_local_service_socket(const char *name)$/;"	f
+create_local_socket	sockets.c	/^asocket *create_local_socket(int fd)$/;"	f
+create_remote_socket	sockets.c	/^asocket *create_remote_socket(unsigned id, atransport *t)$/;"	f
+create_service_thread	services.c	/^static int create_service_thread(void (*func)(int, void *), void *cookie)$/;"	f	file:
+create_smart_socket	sockets.c	/^asocket *create_smart_socket(void (*action_cb)(asocket *s, const char *act))$/;"	f
+create_subprocess	services.c	/^static int create_subprocess(const char *cmd, const char *arg0, const char *arg1)$/;"	f	file:
+ctrlc_handler	sdb.c	/^static BOOL WINAPI ctrlc_handler(DWORD type)$/;"	f	file:
+ctx	usb_libusb.c	/^static libusb_context *ctx = NULL;$/;"	v	file:
+currentRunLoop	usb_osx.c	/^static CFRunLoopRef currentRunLoop = 0;$/;"	v	file:
+current_interface_	sdbwinapi/sdb_interface_enum.h	/^  SdbEnumInterfaceArray::iterator current_interface_;$/;"	m	class:SdbInterfaceEnumObject
+data	file_sync_client.c	/^    char data[SYNC_DATA_MAX];$/;"	m	struct:syncsendbuf	file:
+data	file_sync_service.h	/^    } data;$/;"	m	union:__anon4	typeref:struct:__anon4::__anon8
+data	sdb.h	/^    unsigned char data[MAX_PAYLOAD];$/;"	m	struct:apacket
+data_check	sdb.h	/^    unsigned data_check;    \/* checksum of data payload         *\/$/;"	m	struct:amessage
+data_length	sdb.h	/^    unsigned data_length;   \/* length of payload (0 is allowed) *\/$/;"	m	struct:amessage
+dead	usb_linux.c	/^    int dead;$/;"	m	struct:usb_handle	file:
+def_read_endpoint_	sdbwinapi/sdb_legacy_interface.h	/^  UCHAR                         def_read_endpoint_;$/;"	m	class:SdbLegacyInterfaceObject
+def_read_endpoint_	sdbwinusbapi/sdb_winusb_interface.h	/^  UCHAR                         def_read_endpoint_;$/;"	m	class:SdbWinUsbInterfaceObject
+def_write_endpoint_	sdbwinapi/sdb_legacy_interface.h	/^  UCHAR                         def_write_endpoint_;$/;"	m	class:SdbLegacyInterfaceObject
+def_write_endpoint_	sdbwinusbapi/sdb_winusb_interface.h	/^  UCHAR                         def_write_endpoint_;$/;"	m	class:SdbWinUsbInterfaceObject
+dent	file_sync_service.h	/^    } dent;$/;"	m	union:__anon4	typeref:struct:__anon4::__anon7
+desc	usb_linux.c	/^    int desc;$/;"	m	struct:usb_handle	file:
+dev	usb_libusb.c	/^    libusb_device         *dev;$/;"	m	struct:usb_handle	file:
+dev_addr	usb_libusb.c	/^    uint8_t               dev_addr;$/;"	m	struct:usb_handle	file:
+dev_bus	usb_libusb.c	/^    uint8_t               dev_bus;$/;"	m	struct:usb_handle	file:
+devh	usb_libusb.c	/^    libusb_device_handle  *devh;$/;"	m	struct:usb_handle	file:
+device_name	sdb.h	/^    char *device_name; \/\/ for connection explorer$/;"	m	struct:atransport
+device_name	sdbwinapi/sdb_api.h	/^  wchar_t       device_name[1];$/;"	m	struct:_SdbInterfaceInfo
+device_name	sdbwinapi/sdb_api_private_defines.h	/^  const std::wstring& device_name() const {$/;"	f	class:SdbInstanceEnumEntry
+device_name_	sdbwinapi/sdb_api_private_defines.h	/^  std::wstring  device_name_;$/;"	m	class:SdbInstanceEnumEntry
+device_poll_thread	usb_libusb.c	/^device_poll_thread(void* unused)$/;"	f
+device_poll_thread	usb_linux.c	/^void* device_poll_thread(void* unused)$/;"	f
+device_poll_thread	usb_windows.c	/^void* device_poll_thread(void* unused) {$/;"	f
+device_tracker	transport.c	/^struct device_tracker {$/;"	s	file:
+device_tracker	transport.c	/^typedef struct device_tracker  device_tracker;$/;"	t	typeref:struct:device_tracker	file:
+device_tracker_close	transport.c	/^device_tracker_close( asocket*  socket )$/;"	f	file:
+device_tracker_enqueue	transport.c	/^device_tracker_enqueue( asocket*  socket, apacket*  p )$/;"	f	file:
+device_tracker_list	transport.c	/^static device_tracker*   device_tracker_list;$/;"	v	file:
+device_tracker_ready	transport.c	/^device_tracker_ready( asocket*  socket )$/;"	f	file:
+device_tracker_remove	transport.c	/^device_tracker_remove( device_tracker*  tracker )$/;"	f	file:
+device_tracker_send	transport.c	/^device_tracker_send( device_tracker*  tracker,$/;"	f	file:
+dirlist	file_sync_client.c	/^    copyinfo **dirlist;$/;"	m	struct:__anon13	file:
+disable_tcp_nagle	sysdeps.h	/^static __inline__ void  disable_tcp_nagle(int fd)$/;"	f
+disable_tcp_nagle	sysdeps_win32.c	/^void  disable_tcp_nagle(int fd)$/;"	f
+disconnect	sdb.h	/^    adisconnect  disconnect;$/;"	m	struct:alistener
+disconnect	sockets.c	/^    adisconnect  disconnect;$/;"	m	struct:aremotesocket	file:
+disconnects	sdb.h	/^    adisconnect  disconnects;$/;"	m	struct:atransport
+dns_lock	services.c	/^SDB_MUTEX_DEFINE( dns_lock );$/;"	v
+dns_service	services.c	/^static void dns_service(int fd, void *cookie)$/;"	f	file:
+do_list	file_sync_service.c	/^static int do_list(int s, const char *path)$/;"	f	file:
+do_recv	file_sync_service.c	/^static int do_recv(int s, const char *path, char *buffer)$/;"	f	file:
+do_send	file_sync_service.c	/^static int do_send(int s, char *path, char *buffer)$/;"	f	file:
+do_stat	file_sync_service.c	/^static int do_stat(int s, const char *path)$/;"	f	file:
+do_sync_ls	file_sync_client.c	/^int do_sync_ls(const char *path)$/;"	f
+do_sync_ls_cb	file_sync_client.c	/^static void do_sync_ls_cb(unsigned mode, unsigned size, unsigned time,$/;"	f	file:
+do_sync_pull	file_sync_client.c	/^int do_sync_pull(const char *rpath, const char *lpath)$/;"	f
+do_sync_push	file_sync_client.c	/^int do_sync_push(const char *lpath, const char *rpath, int verifyApk)$/;"	f
+do_sync_sync	file_sync_client.c	/^int do_sync_sync(const char *lpath, const char *rpath, int listonly)$/;"	f
+do_usb_open	usb_windows.c	/^usb_handle* do_usb_open(const wchar_t* interface_name) {$/;"	f
+dst	file_sync_client.c	/^    const char *dst;$/;"	m	struct:copyinfo	file:
+dump_fde	fdevent.c	/^static void dump_fde(fdevent *fde, const char *info)$/;"	f	file:
+dump_fde	fdevent.c	57;"	d	file:
+dump_fde	sysdeps_win32.c	/^static void dump_fde(fdevent *fde, const char *info)$/;"	f	file:
+dump_fde	sysdeps_win32.c	1256;"	d	file:
+dump_hex	transport.c	/^static void  dump_hex( const unsigned char*  ptr, size_t  len )$/;"	f	file:
+dupAndQuote	commandline.c	/^dupAndQuote(const char *s)$/;"	f	file:
+end_point_address	usb_libusb.c	/^    unsigned char         end_point_address[2];$/;"	m	struct:usb_handle	file:
+endpoint_address	sdbwinapi/sdb_api.h	/^  unsigned char endpoint_address;$/;"	m	struct:_SdbEndpointInformation
+endpoint_id	sdbwinapi/sdb_endpoint_object.h	/^  UCHAR endpoint_id() const {$/;"	f	class:SdbEndpointObject
+endpoint_id_	sdbwinapi/sdb_endpoint_object.h	/^  UCHAR               endpoint_id_;$/;"	m	class:SdbEndpointObject
+endpoint_index	sdbwinapi/sdb_api_legacy.h	/^  UCHAR endpoint_index;$/;"	m	struct:SdbQueryEndpointInformation
+endpoint_index	sdbwinapi/sdb_endpoint_object.h	/^  UCHAR endpoint_index() const {$/;"	f	class:SdbEndpointObject
+endpoint_index_	sdbwinapi/sdb_endpoint_object.h	/^  UCHAR               endpoint_index_;$/;"	m	class:SdbEndpointObject
+endpoint_type	sdbwinapi/sdb_api.h	/^  SdbEndpointType endpoint_type;$/;"	m	struct:_SdbEndpointInformation
+enqueue	sdb.h	/^    int (*enqueue)(asocket *s, apacket *pkt);$/;"	m	struct:asocket
+eof	sysdeps_win32.c	/^    int        eof;$/;"	m	struct:FHRec_	file:
+ep_in	usb_linux.c	/^    unsigned char ep_in;$/;"	m	struct:usb_handle	file:
+ep_out	usb_linux.c	/^    unsigned char ep_out;$/;"	m	struct:usb_handle	file:
+epoll_fd	fdevent.c	/^static int epoll_fd = -1;$/;"	v	file:
+error_fds	fdevent.c	/^static fd_set error_fds;$/;"	v	file:
+event	sysdeps_win32.c	/^    HANDLE    event;$/;"	m	struct:FHRec_	file:
+event_hook_alloc	sysdeps_win32.c	/^event_hook_alloc( FH  fh )$/;"	f	file:
+event_hook_free	sysdeps_win32.c	/^event_hook_free( EventHook  hook )$/;"	f	file:
+event_hook_signal	sysdeps_win32.c	/^event_hook_signal( EventHook  hook )$/;"	f	file:
+event_looper_find_p	sysdeps_win32.c	/^event_looper_find_p( EventLooper  looper, FH  fh )$/;"	f	file:
+event_looper_hook	sysdeps_win32.c	/^event_looper_hook( EventLooper  looper, int  fd, int  events )$/;"	f	file:
+event_looper_unhook	sysdeps_win32.c	/^event_looper_unhook( EventLooper  looper, int  fd, int  events )$/;"	f	file:
+events	fdevent.h	/^    unsigned short events;$/;"	m	struct:fdevent
+events	sysdeps.h	/^    unsigned short events;$/;"	m	struct:fdevent
+evt_read	sysdeps_win32.c	/^    HANDLE             evt_read;   \/* event signaled when one can read from a buffer *\/$/;"	m	struct:BipBufferRec_	file:
+evt_write	sysdeps_win32.c	/^    HANDLE             evt_write;  \/* event signaled when one can write to a buffer  *\/$/;"	m	struct:BipBufferRec_	file:
+expected_transfer_size_	sdbwinapi/sdb_io_completion.h	/^  ULONG               expected_transfer_size_;$/;"	m	class:SdbIOCompletion
+extra	sdb.h	/^    void *extra;$/;"	m	struct:asocket
+fail_errno	file_sync_service.c	/^static int fail_errno(int s)$/;"	f	file:
+fail_message	file_sync_service.c	/^static int fail_message(int s, const char *reason)$/;"	f	file:
+false	sdbwinapi/sdb_api.h	32;"	d
+false	sdbwinapi/sdb_api_legacy.h	32;"	d
+fatal	fdevent.c	/^static void fatal(const char *fn, const char *fmt, ...)$/;"	f	file:
+fatal	sdb.c	/^void fatal(const char *fmt, ...)$/;"	f
+fatal_errno	sdb.c	/^void fatal_errno(const char *fmt, ...)$/;"	f
+fbinfo	framebuffer_service.c	/^struct fbinfo {$/;"	s	file:
+fd	fdevent.h	/^    int fd;$/;"	m	struct:fdevent
+fd	sdb.h	/^    int fd;$/;"	m	struct:alistener
+fd	sdb.h	/^    int fd;$/;"	m	struct:asocket
+fd	sdb.h	/^    int fd;$/;"	m	struct:atransport
+fd	services.c	/^    int fd;$/;"	m	struct:stinfo	file:
+fd	sysdeps.h	/^    int fd;$/;"	m	struct:fdevent
+fd	usb_linux_client.c	/^    int fd;$/;"	m	struct:usb_handle	file:
+fd_func	fdevent.h	/^typedef void (*fd_func)(int fd, unsigned events, void *userdata);$/;"	t
+fd_func	sysdeps.h	/^typedef void (*fd_func)(int fd, unsigned events, void *userdata);$/;"	t
+fd_table	fdevent.c	/^static fdevent **fd_table = 0;$/;"	v	file:
+fd_table	sysdeps_win32.c	/^static fdevent **fd_table = 0;$/;"	v	file:
+fd_table_max	fdevent.c	/^static int fd_table_max = 0;$/;"	v	file:
+fd_table_max	sysdeps_win32.c	/^static int       fd_table_max = 0;$/;"	v	file:
+fde	jdwp_service.c	/^    fdevent*      fde;$/;"	m	struct:JdwpProcess	file:
+fde	jdwp_service.c	/^    fdevent*  fde;$/;"	m	struct:__anon10	file:
+fde	sdb.h	/^    fdevent fde;$/;"	m	struct:alistener
+fde	sdb.h	/^    fdevent fde;$/;"	m	struct:asocket
+fdevent	fdevent.h	/^struct fdevent $/;"	s
+fdevent	fdevent.h	/^typedef struct fdevent fdevent;$/;"	t	typeref:struct:fdevent
+fdevent	sysdeps.h	/^struct fdevent {$/;"	s
+fdevent	sysdeps.h	/^typedef struct fdevent fdevent;$/;"	t	typeref:struct:fdevent
+fdevent_add	fdevent.c	/^void fdevent_add(fdevent *fde, unsigned events)$/;"	f
+fdevent_add	sysdeps_win32.c	/^void fdevent_add(fdevent *fde, unsigned events)$/;"	f
+fdevent_connect	fdevent.c	/^static void fdevent_connect(fdevent *fde)$/;"	f	file:
+fdevent_connect	sysdeps_win32.c	/^static void fdevent_connect(fdevent *fde)$/;"	f	file:
+fdevent_create	fdevent.c	/^fdevent *fdevent_create(int fd, fd_func func, void *arg)$/;"	f
+fdevent_create	sysdeps_win32.c	/^fdevent *fdevent_create(int fd, fd_func func, void *arg)$/;"	f
+fdevent_del	fdevent.c	/^void fdevent_del(fdevent *fde, unsigned events)$/;"	f
+fdevent_del	sysdeps_win32.c	/^void fdevent_del(fdevent *fde, unsigned events)$/;"	f
+fdevent_destroy	fdevent.c	/^void fdevent_destroy(fdevent *fde)$/;"	f
+fdevent_destroy	sysdeps_win32.c	/^void fdevent_destroy(fdevent *fde)$/;"	f
+fdevent_disconnect	fdevent.c	/^static void fdevent_disconnect(fdevent *fde)$/;"	f	file:
+fdevent_disconnect	sysdeps_win32.c	/^static void fdevent_disconnect(fdevent *fde)$/;"	f	file:
+fdevent_init	fdevent.c	/^static void fdevent_init()$/;"	f	file:
+fdevent_init	fdevent.c	/^static void fdevent_init(void)$/;"	f	file:
+fdevent_init	sysdeps_win32.c	/^static void fdevent_init(void)$/;"	f	file:
+fdevent_install	fdevent.c	/^void fdevent_install(fdevent *fde, int fd, fd_func func, void *arg) $/;"	f
+fdevent_install	sysdeps_win32.c	/^void fdevent_install(fdevent *fde, int fd, fd_func func, void *arg) $/;"	f
+fdevent_loop	fdevent.c	/^void fdevent_loop()$/;"	f
+fdevent_loop	sysdeps_win32.c	/^void fdevent_loop()$/;"	f
+fdevent_plist_dequeue	fdevent.c	/^static fdevent *fdevent_plist_dequeue(void)$/;"	f	file:
+fdevent_plist_dequeue	sysdeps_win32.c	/^static fdevent *fdevent_plist_dequeue(void)$/;"	f	file:
+fdevent_plist_enqueue	fdevent.c	/^static void fdevent_plist_enqueue(fdevent *node)$/;"	f	file:
+fdevent_plist_enqueue	sysdeps_win32.c	/^static void fdevent_plist_enqueue(fdevent *node)$/;"	f	file:
+fdevent_plist_remove	fdevent.c	/^static void fdevent_plist_remove(fdevent *node)$/;"	f	file:
+fdevent_plist_remove	sysdeps_win32.c	/^static void fdevent_plist_remove(fdevent *node)$/;"	f	file:
+fdevent_process	fdevent.c	/^static int fdevent_process()$/;"	f	file:
+fdevent_process	fdevent.c	/^static void fdevent_process()$/;"	f	file:
+fdevent_process	sysdeps_win32.c	/^static void fdevent_process()$/;"	f	file:
+fdevent_register	fdevent.c	/^static void fdevent_register(fdevent *fde)$/;"	f	file:
+fdevent_register	sysdeps_win32.c	/^static void fdevent_register(fdevent *fde)$/;"	f	file:
+fdevent_remove	fdevent.c	/^void fdevent_remove(fdevent *fde)$/;"	f
+fdevent_remove	sysdeps_win32.c	/^void fdevent_remove(fdevent *fde)$/;"	f
+fdevent_set	fdevent.c	/^void fdevent_set(fdevent *fde, unsigned events)$/;"	f
+fdevent_set	sysdeps_win32.c	/^void fdevent_set(fdevent *fde, unsigned events)$/;"	f
+fdevent_unregister	fdevent.c	/^static void fdevent_unregister(fdevent *fde)$/;"	f	file:
+fdevent_unregister	sysdeps_win32.c	/^static void fdevent_unregister(fdevent *fde)$/;"	f	file:
+fdevent_update	fdevent.c	/^static void fdevent_update(fdevent *fde, unsigned events)$/;"	f	file:
+fdevent_update	sysdeps_win32.c	/^static void fdevent_update(fdevent *fde, unsigned events)$/;"	f	file:
+fdin	sysdeps_win32.c	/^    int                fdin;$/;"	m	struct:BipBufferRec_	file:
+fdout	sysdeps_win32.c	/^    int                fdout;$/;"	m	struct:BipBufferRec_	file:
+fh	sysdeps_win32.c	/^    FH           fh;$/;"	m	struct:EventHookRec_	file:
+fh_handle	sysdeps_win32.c	111;"	d	file:
+fh_pair	sysdeps_win32.c	113;"	d	file:
+fh_socket	sysdeps_win32.c	112;"	d	file:
+file_sync_service	file_sync_service.c	/^void file_sync_service(int fd, void *cookie)$/;"	f
+filelist	file_sync_client.c	/^    copyinfo **filelist;$/;"	m	struct:__anon13	file:
+find_devices	usb_windows.c	/^void find_devices() {$/;"	f
+find_emulator_transport_by_sdb_port	transport_local.c	/^atransport* find_emulator_transport_by_sdb_port(int sdb_port)$/;"	f
+find_emulator_transport_by_sdb_port_locked	transport_local.c	/^atransport* find_emulator_transport_by_sdb_port_locked(int sdb_port)$/;"	f
+find_local_socket	sockets.c	/^asocket *find_local_socket(unsigned id)$/;"	f
+find_mount	remount_service.c	/^static char *find_mount(const char *dir)$/;"	f	file:
+find_transport	transport.c	/^atransport *find_transport(const char *serial)$/;"	f
+find_transports	transport.c	/^int find_transports(char **serial_out, const char *prefix)$/;"	f
+find_usb_device	usb_linux.c	/^static void find_usb_device(const char *base,$/;"	f	file:
+fix_endians	transport_local.c	/^static inline void fix_endians(apacket *p)$/;"	f	file:
+fix_endians	transport_local.c	46;"	d	file:
+fix_endians	transport_usb.c	/^static inline void fix_endians(apacket *p)$/;"	f	file:
+fix_endians	transport_usb.c	47;"	d	file:
+flag	file_sync_client.c	/^    int flag;$/;"	m	struct:copyinfo	file:
+flags	sdbwinapi/sdb_api.h	/^  unsigned long flags;$/;"	m	struct:_SdbInterfaceInfo
+flags	sdbwinapi/sdb_api_private_defines.h	/^  DWORD flags() const {$/;"	f	class:SdbInstanceEnumEntry
+flags_	sdbwinapi/sdb_api_private_defines.h	/^  DWORD         flags_;$/;"	m	class:SdbInstanceEnumEntry
+fname	usb_linux.c	/^    char fname[64];$/;"	m	struct:usb_handle	file:
+for_x64	sdbwinapi/sdb_api_legacy.h	/^    __int64 for_x64;$/;"	m	union:SdbBulkTransfer::__anon14
+format_host_command	commandline.c	/^static void format_host_command(char* buffer, size_t  buflen, const char* command, transport_type ttype, const char* serial)$/;"	f	file:
+framebuffer_service	framebuffer_service.c	/^void framebuffer_service(int fd, void *cookie)$/;"	f
+free_listener	sdb.c	/^static void  free_listener(alistener*  l)$/;"	f	file:
+func	fdevent.h	/^    fd_func func;$/;"	m	struct:fdevent
+func	sdb.h	/^    void        (*func)(void*  opaque, atransport*  t);$/;"	m	struct:adisconnect
+func	services.c	/^    void (*func)(int fd, void *cookie);$/;"	m	struct:stinfo	file:
+func	sysdeps.h	/^    fd_func func;$/;"	m	struct:fdevent
+get_apacket	sdb.c	/^apacket *get_apacket(void)$/;"	f
+get_available_local_transport_index	transport_local.c	/^int get_available_local_transport_index()$/;"	f
+get_available_local_transport_index_locked	transport_local.c	/^int get_available_local_transport_index_locked()$/;"	f
+get_connected_device_count	transport.c	/^int get_connected_device_count(transport_type type) \/* tizen specific *\/$/;"	f
+get_devicename	transport_local.c	/^int get_devicename(int port, char *device_name)$/;"	f
+get_devicename_from_shdmem	transport_local.c	/^int get_devicename_from_shdmem(int port, char *device_name)$/;"	f
+get_key	file_sync_service.c	/^uint32_t *get_key()$/;"	f
+get_loopback_status	socket_loopback_server.c	/^int get_loopback_status(void) {$/;"	f
+get_my_path	get_my_path_darwin.c	/^void get_my_path(char *s, size_t maxLen)$/;"	f
+get_my_path	get_my_path_freebsd.c	/^get_my_path(char *exe, size_t maxLen)$/;"	f
+get_my_path	get_my_path_linux.c	/^void get_my_path(char *exe, size_t maxLen)$/;"	f
+get_my_path	get_my_path_windows.c	/^void get_my_path(char *exe, size_t maxLen)$/;"	f
+get_sdb_usb_ini	usb_vendors.c	/^int get_sdb_usb_ini(char* buff, size_t len)$/;"	f
+green_length	framebuffer_service.c	/^    unsigned int green_length;$/;"	m	struct:fbinfo	file:
+green_offset	framebuffer_service.c	/^    unsigned int green_offset;$/;"	m	struct:fbinfo	file:
+h	sysdeps_win32.c	/^    HANDLE       h;$/;"	m	struct:EventHookRec_	file:
+handle	sysdeps_win32.c	/^        HANDLE      handle;$/;"	m	union:FHRec_::__anon12	file:
+handle_host_request	sdb.c	/^int handle_host_request(char *service, transport_type ttype, char* serial, int reply_fd, asocket *s)$/;"	f
+handle_list	usb_libusb.c	/^static struct usb_handle handle_list = {$/;"	v	typeref:struct:usb_handle	file:
+handle_list	usb_linux.c	/^static usb_handle handle_list = {$/;"	v	file:
+handle_list	usb_windows.c	/^static usb_handle handle_list = {$/;"	v	file:
+handle_offline	sdb.c	/^void handle_offline(atransport *t)$/;"	f
+handle_online	sdb.c	/^void handle_online(void)$/;"	f
+handle_packet	sdb.c	/^void handle_packet(apacket *p, atransport *t)$/;"	f
+handle_send_file	file_sync_service.c	/^static int handle_send_file(int s, char *path, mode_t mode, char *buffer)$/;"	f	file:
+handle_send_link	file_sync_service.c	/^static int handle_send_link(int s, char *path, char *buffer)$/;"	f	file:
+handle_sig_term	sdb.c	/^void handle_sig_term(int sig) {$/;"	f
+height	framebuffer_service.c	/^    unsigned int height;$/;"	m	struct:fbinfo	file:
+help	commandline.c	/^void help()$/;"	f
+hooks	sysdeps_win32.c	/^    EventHook    hooks;$/;"	m	struct:EventLooperRec_	file:
+host_service_to_socket	services.c	/^asocket*  host_service_to_socket(const char*  name, const char *serial)$/;"	f
+host_to_le32	transport_usb.c	/^unsigned host_to_le32(unsigned n)$/;"	f
+htab	sysdeps_win32.c	/^    HANDLE       htab[ MAX_LOOPER_HANDLES ];$/;"	m	struct:EventLooperRec_	file:
+htab_count	sysdeps_win32.c	/^    int          htab_count;$/;"	m	struct:EventLooperRec_	file:
+htoll	file_sync_service.h	28;"	d
+htoll	file_sync_service.h	32;"	d
+id	file_sync_client.c	/^    unsigned id;$/;"	m	struct:syncsendbuf	file:
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:__anon4::__anon5
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:__anon4::__anon6
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:__anon4::__anon7
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:__anon4::__anon8
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:__anon4::__anon9
+id	file_sync_service.h	/^    unsigned id;$/;"	m	union:__anon4
+id	sdb.h	/^    unsigned id;$/;"	m	struct:asocket
+in_buff	jdwp_service.c	/^    char          in_buff[4];  \/* input character to read PID *\/$/;"	m	struct:JdwpProcess	file:
+in_len	jdwp_service.c	/^    int           in_len;      \/* number from JDWP process    *\/$/;"	m	struct:JdwpProcess	file:
+init_jdwp	jdwp_service.c	/^init_jdwp(void)$/;"	f
+init_socket_transport	transport_local.c	/^int init_socket_transport(atransport *t, int s, int sdb_port, int local)$/;"	f
+init_transport_registration	transport.c	/^void init_transport_registration(void)$/;"	f
+init_usb_transport	transport_usb.c	/^void init_usb_transport(atransport *t, usb_handle *h, int state)$/;"	f
+initialized	usb_osx.c	/^static int initialized = 0;$/;"	v	file:
+input_thread	transport.c	/^static void *input_thread(void *_t)$/;"	f	file:
+insert_local_socket	sockets.c	/^insert_local_socket(asocket*  s, asocket*  list)$/;"	f	file:
+install_listener	sdb.c	/^static int install_listener(const char *local_name, const char *connect_to, atransport* transport)$/;"	f	file:
+install_local_socket	sockets.c	/^void install_local_socket(asocket *s)$/;"	f
+instance_handle_	sdbwinapi/sdb_api_instance.h	/^  SDBAPIINSTANCEHANDLE  instance_handle_;$/;"	m	class:SdbApiInstance
+interactive_shell	commandline.c	/^int interactive_shell(void)$/;"	f
+interface	usb_libusb.c	/^    int                   interface;$/;"	m	struct:usb_handle	file:
+interface	usb_osx.c	/^    IOUSBInterfaceInterface   **interface;$/;"	m	struct:usb_handle	file:
+interface_name	sdbwinapi/sdb_api_instance.h	/^   const std::wstring& interface_name() const {$/;"	f	class:SdbApiInstance
+interface_name	sdbwinapi/sdb_interface.h	/^  const std::wstring& interface_name() const {$/;"	f	class:SdbInterfaceObject
+interface_name	usb_windows.c	/^  char*         interface_name;$/;"	m	struct:usb_handle	file:
+interface_name_	sdbwinapi/sdb_api_instance.h	/^  std::wstring          interface_name_;$/;"	m	class:SdbApiInstance
+interface_name_	sdbwinapi/sdb_interface.h	/^  std::wstring                  interface_name_;$/;"	m	class:SdbInterfaceObject
+interface_number	sdbwinusbapi/sdb_winusb_interface.h	/^  UCHAR interface_number() const {$/;"	f	class:SdbWinUsbInterfaceObject
+interface_number_	sdbwinusbapi/sdb_winusb_interface.h	/^  UCHAR                         interface_number_;$/;"	m	class:SdbWinUsbInterfaceObject
+interfaces_	sdbwinapi/sdb_interface_enum.h	/^  SdbEnumInterfaceArray           interfaces_;$/;"	m	class:SdbInterfaceEnumObject
+is_initialized_	sdbwinapi/SdbWinApi.cpp	/^  bool      is_initialized_;$/;"	m	class:CSdbWinApiModule	file:
+is_sdb_interface	transport_usb.c	/^int is_sdb_interface(int vid, int pid, int usb_class, int usb_subclass, int usb_protocol)$/;"	f
+is_write_ioctl	sdbwinapi/sdb_legacy_io_completion.h	/^  bool is_write_ioctl() const {$/;"	f	class:SdbLegacyIOCompletion
+is_write_ioctl_	sdbwinapi/sdb_legacy_io_completion.h	/^  bool          is_write_ioctl_;$/;"	m	class:SdbLegacyIOCompletion
+jdwp_control_event	jdwp_service.c	/^jdwp_control_event( int  s, unsigned  events, void*  _control )$/;"	f	file:
+jdwp_control_init	jdwp_service.c	/^jdwp_control_init( JdwpControl*  control,$/;"	f	file:
+jdwp_process_alloc	jdwp_service.c	/^jdwp_process_alloc( int  socket )$/;"	f	file:
+jdwp_process_event	jdwp_service.c	/^jdwp_process_event( int  socket, unsigned  events, void*  _proc )$/;"	f	file:
+jdwp_process_free	jdwp_service.c	/^jdwp_process_free( JdwpProcess*  proc )$/;"	f	file:
+jdwp_process_list	jdwp_service.c	/^jdwp_process_list( char*  buffer, int  bufferlen )$/;"	f	file:
+jdwp_process_list_msg	jdwp_service.c	/^jdwp_process_list_msg( char*  buffer, int  bufferlen )$/;"	f	file:
+jdwp_process_list_updated	jdwp_service.c	/^jdwp_process_list_updated(void)$/;"	f	file:
+jdwp_socket_close	jdwp_service.c	/^jdwp_socket_close( asocket*  s )$/;"	f	file:
+jdwp_socket_enqueue	jdwp_service.c	/^jdwp_socket_enqueue( asocket*  s, apacket*  p )$/;"	f	file:
+jdwp_socket_ready	jdwp_service.c	/^jdwp_socket_ready( asocket*  s )$/;"	f	file:
+jdwp_tracker_close	jdwp_service.c	/^jdwp_tracker_close( asocket*  s )$/;"	f	file:
+jdwp_tracker_enqueue	jdwp_service.c	/^jdwp_tracker_enqueue( asocket*  s, apacket*  p )$/;"	f	file:
+jdwp_tracker_ready	jdwp_service.c	/^jdwp_tracker_ready( asocket*  s )$/;"	f	file:
+kTransportAny	sdb.h	/^        kTransportAny,$/;"	e	enum:transport_type
+kTransportHost	sdb.h	/^        kTransportHost,$/;"	e	enum:transport_type
+kTransportLocal	sdb.h	/^        kTransportLocal,$/;"	e	enum:transport_type
+kTransportUsb	sdb.h	/^        kTransportUsb,$/;"	e	enum:transport_type
+kick	sdb.h	/^    void (*kick)(atransport *t);$/;"	m	struct:atransport
+kick_disconnected	usb_libusb.c	/^kick_disconnected()$/;"	f
+kick_disconnected_devices	usb_linux.c	/^static void kick_disconnected_devices()$/;"	f	file:
+kick_transport	transport.c	/^kick_transport(atransport*  t)$/;"	f
+kicked	sdb.h	/^    int          kicked;$/;"	m	struct:atransport
+known_device	usb_linux.c	/^static int known_device(const char *dev_name)$/;"	f	file:
+known_device	usb_windows.c	/^int known_device(const char* dev_name) {$/;"	f
+known_device_locked	usb_windows.c	/^int known_device_locked(const char* dev_name) {$/;"	f
+launch_server	sdb.c	/^int launch_server(int server_port)$/;"	f
+len	sdb.h	/^    unsigned len;$/;"	m	struct:apacket
+list_pending	fdevent.c	/^static fdevent list_pending = {$/;"	v	file:
+list_pending	sysdeps_win32.c	/^static fdevent list_pending = {$/;"	v	file:
+list_transports	transport.c	/^int list_transports(char *buf, size_t  bufsize)$/;"	f
+list_transports_msg	transport.c	/^static int list_transports_msg(char*  buffer, size_t  bufferlen)$/;"	f	file:
+listen_socket	jdwp_service.c	/^    int       listen_socket;$/;"	m	struct:__anon10	file:
+listener_disconnect	sdb.c	/^static void listener_disconnect(void*  _l, atransport*  t)$/;"	f	file:
+listener_event_func	sdb.c	/^static void listener_event_func(int _fd, unsigned ev, void *_l)$/;"	f	file:
+listener_list	sdb.c	/^alistener listener_list = {$/;"	v
+load_file	sysdeps_win32.c	/^void *load_file(const char *fn, unsigned *_sz)$/;"	f
+local_build_list	file_sync_client.c	/^static int local_build_list(copyinfo **filelist,$/;"	f	file:
+local_connect	transport_local.c	/^int local_connect(int port, const char *device_name) {$/;"	f
+local_connect_arbitrary_ports	transport_local.c	/^int local_connect_arbitrary_ports(int console_port, int sdb_port, const char *device_name)$/;"	f
+local_init	transport_local.c	/^void local_init(int port)$/;"	f
+local_name	sdb.h	/^    const char *local_name;$/;"	m	struct:alistener
+local_name_to_fd	sdb.c	/^int local_name_to_fd(const char *name)$/;"	f
+local_socket_close	sockets.c	/^static void local_socket_close(asocket *s)$/;"	f	file:
+local_socket_close_locked	sockets.c	/^static void local_socket_close_locked(asocket *s)$/;"	f	file:
+local_socket_close_notify	sockets.c	/^static void local_socket_close_notify(asocket *s)$/;"	f	file:
+local_socket_closing_list	sockets.c	/^static asocket local_socket_closing_list = {$/;"	v	file:
+local_socket_destroy	sockets.c	/^static void local_socket_destroy(asocket  *s)$/;"	f	file:
+local_socket_enqueue	sockets.c	/^static int local_socket_enqueue(asocket *s, apacket *p)$/;"	f	file:
+local_socket_event_func	sockets.c	/^static void local_socket_event_func(int fd, unsigned ev, void *_s)$/;"	f	file:
+local_socket_list	sockets.c	/^static asocket local_socket_list = {$/;"	v	file:
+local_socket_next_id	sockets.c	/^static unsigned local_socket_next_id = 1;$/;"	v	file:
+local_socket_ready	sockets.c	/^static void local_socket_ready(asocket *s)$/;"	f	file:
+local_socket_ready_notify	sockets.c	/^static void local_socket_ready_notify(asocket *s)$/;"	f	file:
+local_transports	transport_local.c	/^static atransport*  local_transports[ SDB_LOCAL_TRANSPORT_MAX ];$/;"	v	file:
+local_transports_lock	transport_local.c	/^SDB_MUTEX_DEFINE( local_transports_lock );$/;"	v
+lock	sysdeps_win32.c	/^    CRITICAL_SECTION  lock;$/;"	m	struct:BipBufferRec_	file:
+lock	usb_libusb.c	/^    sdb_mutex_t           lock;$/;"	m	struct:usb_handle	file:
+lock	usb_linux.c	/^    sdb_mutex_t lock;$/;"	m	struct:usb_handle	file:
+lock	usb_linux_client.c	/^    sdb_mutex_t lock;$/;"	m	struct:usb_handle	file:
+logcat	commandline.c	/^static int logcat(transport_type transport, char* serial, int argc, char **argv)$/;"	f	file:
+lpath	file_sync_client.c	/^    const char *lpath;$/;"	m	struct:__anon13	file:
+lseek	sysdeps.h	363;"	d
+lseek	sysdeps.h	364;"	d
+lstat	sysdeps.h	84;"	d
+ltohl	file_sync_service.h	29;"	d
+ltohl	file_sync_service.h	33;"	d
+magic	sdb.h	/^    unsigned magic;         \/* command ^ 0xffffffff             *\/$/;"	m	struct:amessage
+main	sdb.c	/^int main(int argc, char **argv)$/;"	f
+main	test_track_devices.c	/^int  main( void )$/;"	f
+main	test_track_jdwp.c	/^int  main( void )$/;"	f
+mark	usb_linux.c	/^    int mark;$/;"	m	struct:usb_handle	file:
+mask	sysdeps_win32.c	/^    int       mask;$/;"	m	struct:FHRec_	file:
+max_packet_size	sdbwinapi/sdb_api.h	/^  unsigned long max_packet_size;$/;"	m	struct:_SdbEndpointInformation
+max_transfer_size	sdbwinapi/sdb_api.h	/^  unsigned long max_transfer_size;$/;"	m	struct:_SdbEndpointInformation
+mkcopyinfo	file_sync_client.c	/^copyinfo *mkcopyinfo(const char *spath, const char *dpath,$/;"	f
+mkdir	sysdeps.h	108;"	d
+mkdir	sysdeps.h	109;"	d
+mkdir	sysdeps.h	455;"	d
+mkdir	sysdeps.h	456;"	d
+mkdirs	file_sync_client.c	/^static int mkdirs(char *name)$/;"	f	file:
+mkdirs	file_sync_service.c	/^static int mkdirs(char *name)$/;"	f	file:
+mode	file_sync_client.c	/^    unsigned int mode;$/;"	m	struct:copyinfo	file:
+mode	file_sync_service.h	/^        unsigned mode;$/;"	m	struct:__anon4::__anon6
+mode	file_sync_service.h	/^        unsigned mode;$/;"	m	struct:__anon4::__anon7
+msg	sdb.h	/^    amessage msg;$/;"	m	struct:apacket
+msglen	file_sync_service.h	/^        unsigned msglen;$/;"	m	struct:__anon4::__anon9
+name	sysdeps_win32.c	/^    char  name[32];$/;"	m	struct:FHRec_	file:
+namelen	file_sync_service.h	/^        unsigned namelen;$/;"	m	struct:__anon4::__anon5
+namelen	file_sync_service.h	/^        unsigned namelen;$/;"	m	struct:__anon4::__anon7
+need_update	jdwp_service.c	/^    int           need_update;$/;"	m	struct:JdwpTracker	file:
+next	fdevent.h	/^    fdevent *next;$/;"	m	struct:fdevent
+next	file_sync_client.c	/^    copyinfo *next;$/;"	m	struct:copyinfo	file:
+next	jdwp_service.c	/^    JdwpProcess*  next;$/;"	m	struct:JdwpProcess	file:
+next	jdwp_service.c	/^    JdwpTracker*  next;$/;"	m	struct:JdwpTracker	file:
+next	sdb.h	/^    adisconnect*  next;$/;"	m	struct:adisconnect
+next	sdb.h	/^    alistener *next;$/;"	m	struct:alistener
+next	sdb.h	/^    apacket *next;$/;"	m	struct:apacket
+next	sdb.h	/^    asocket *next;$/;"	m	struct:asocket
+next	sdb.h	/^    atransport *next;$/;"	m	struct:atransport
+next	sysdeps.h	/^    fdevent *next;$/;"	m	struct:fdevent
+next	sysdeps_win32.c	/^    EventHook    next;$/;"	m	struct:EventHookRec_	file:
+next	transport.c	/^    device_tracker*  next;$/;"	m	struct:device_tracker	file:
+next	usb_libusb.c	/^    usb_handle            *next;$/;"	m	struct:usb_handle	file:
+next	usb_linux.c	/^    usb_handle *next;$/;"	m	struct:usb_handle	file:
+next	usb_windows.c	/^  usb_handle *next;$/;"	m	struct:usb_handle	file:
+next_sdb_handle_value	sdbwinapi/sdb_object_handle.cpp	/^ULONG_PTR               next_sdb_handle_value = 0;$/;"	v
+notificationIterators	usb_osx.c	/^static io_iterator_t*           notificationIterators;$/;"	v	file:
+notificationPort	usb_osx.c	/^static IONotificationPortRef    notificationPort = 0;$/;"	v	file:
+notify	usb_libusb.c	/^    sdb_cond_t            notify;$/;"	m	struct:usb_handle	file:
+notify	usb_linux.c	/^    sdb_cond_t notify;$/;"	m	struct:usb_handle	file:
+notify	usb_linux_client.c	/^    sdb_cond_t notify;$/;"	m	struct:usb_handle	file:
+object_type	sdbwinapi/sdb_object_handle.h	/^  SdbObjectType object_type() const {$/;"	f	class:SdbObjectHandle
+object_type_	sdbwinapi/sdb_object_handle.h	/^  SdbObjectType object_type_;$/;"	m	class:SdbObjectHandle
+opaque	sdb.h	/^    void*         opaque;$/;"	m	struct:adisconnect
+open	sysdeps.h	161;"	d
+open	sysdeps.h	326;"	d
+open	sysdeps.h	327;"	d
+operator =	sdbwinapi/sdb_api_private_defines.h	/^  SdbInstanceEnumEntry& operator=(const SdbInstanceEnumEntry& proto) {$/;"	f	class:SdbInstanceEnumEntry
+out_count	jdwp_service.c	/^    int           out_count;            \/* to send to the JDWP process      *\/$/;"	m	struct:JdwpProcess	file:
+out_fds	jdwp_service.c	/^    int           out_fds[MAX_OUT_FDS]; \/* output array of file descriptors *\/$/;"	m	struct:JdwpProcess	file:
+output_thread	transport.c	/^static void *output_thread(void *_t)$/;"	f	file:
+overlapped	sdbwinapi/sdb_io_completion.h	/^  LPOVERLAPPED overlapped() {$/;"	f	class:SdbIOCompletion
+overlapped_	sdbwinapi/sdb_io_completion.h	/^  OVERLAPPED          overlapped_;$/;"	m	class:SdbIOCompletion
+pair	sysdeps_win32.c	/^        SocketPair  pair;$/;"	m	union:FHRec_::__anon12	file:
+panic	test_track_devices.c	/^panic( const char*  msg )$/;"	f	file:
+panic	test_track_jdwp.c	/^panic( const char*  msg )$/;"	f	file:
+parent_interface	sdbwinapi/sdb_endpoint_object.h	/^  SdbInterfaceObject* parent_interface() const {$/;"	f	class:SdbEndpointObject
+parent_interface_	sdbwinapi/sdb_endpoint_object.h	/^  SdbInterfaceObject* parent_interface_;$/;"	m	class:SdbEndpointObject
+parent_io_object	sdbwinapi/sdb_io_completion.h	/^  SdbEndpointObject* parent_io_object() const {$/;"	f	class:SdbIOCompletion
+parent_io_object_	sdbwinapi/sdb_io_completion.h	/^  SdbEndpointObject*  parent_io_object_;$/;"	m	class:SdbIOCompletion
+parent_legacy_io_object	sdbwinapi/sdb_legacy_io_completion.h	/^  SdbLegacyEndpointObject* parent_legacy_io_object() const {$/;"	f	class:SdbLegacyIOCompletion
+parent_winusb_interface	sdbwinusbapi/sdb_winusb_endpoint_object.h	/^  SdbWinUsbInterfaceObject* parent_winusb_interface() const {$/;"	f	class:SdbWinUsbEndpointObject
+parent_winusb_io_object	sdbwinusbapi/sdb_winusb_io_completion.h	/^  SdbWinUsbEndpointObject* parent_winusb_io_object() const {$/;"	f	class:SdbWinUsbIOCompletion
+parse_banner	sdb.c	/^void parse_banner(char *banner, atransport *t)$/;"	f
+pass	jdwp_service.c	/^    int      pass;$/;"	m	struct:__anon11	file:
+peek	sysdeps_win32.c	/^    int         (*peek)   ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+peer	sdb.h	/^    asocket *peer;$/;"	m	struct:asocket
+pid	jdwp_service.c	/^    int           pid;$/;"	m	struct:JdwpProcess	file:
+pkt_first	sdb.h	/^    apacket *pkt_first;$/;"	m	struct:asocket
+pkt_last	sdb.h	/^    apacket *pkt_last;$/;"	m	struct:asocket
+pm_command	commandline.c	/^static int pm_command(transport_type transport, char* serial,$/;"	f	file:
+polling_interval	sdbwinapi/sdb_api.h	/^  unsigned char polling_interval;$/;"	m	struct:_SdbEndpointInformation
+prepare	sysdeps_win32.c	/^    void        (*prepare)( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+prev	fdevent.h	/^    fdevent *prev;$/;"	m	struct:fdevent
+prev	jdwp_service.c	/^    JdwpProcess*  prev;$/;"	m	struct:JdwpProcess	file:
+prev	jdwp_service.c	/^    JdwpTracker*  prev;$/;"	m	struct:JdwpTracker	file:
+prev	sdb.h	/^    adisconnect*  prev;$/;"	m	struct:adisconnect
+prev	sdb.h	/^    alistener *prev;$/;"	m	struct:alistener
+prev	sdb.h	/^    asocket *prev;$/;"	m	struct:asocket
+prev	sdb.h	/^    atransport *prev;$/;"	m	struct:atransport
+prev	sysdeps.h	/^    fdevent *prev;$/;"	m	struct:fdevent
+prev	usb_libusb.c	/^    usb_handle            *prev;$/;"	m	struct:usb_handle	file:
+prev	usb_linux.c	/^    usb_handle *prev;$/;"	m	struct:usb_handle	file:
+prev	usb_windows.c	/^  usb_handle *prev;$/;"	m	struct:usb_handle	file:
+print_packet	sdb.c	/^void print_packet(const char *label, apacket *p)$/;"	f
+print_packet	sdb.h	374;"	d
+product	sdb.h	/^    char *product;$/;"	m	struct:atransport
+ptr	sdb.h	/^    unsigned char *ptr;$/;"	m	struct:apacket
+put_apacket	sdb.c	/^void put_apacket(apacket *p)$/;"	f
+read	sysdeps.h	130;"	d
+read	sysdeps.h	131;"	d
+read	sysdeps.h	349;"	d
+read	sysdeps.h	350;"	d
+read_and_dump	commandline.c	/^static void read_and_dump(int fd)$/;"	f	file:
+read_endpoint_id_	sdbwinapi/sdb_legacy_interface.h	/^  UCHAR                         read_endpoint_id_;$/;"	m	class:SdbLegacyInterfaceObject
+read_endpoint_id_	sdbwinusbapi/sdb_winusb_interface.h	/^  UCHAR                         read_endpoint_id_;$/;"	m	class:SdbWinUsbInterfaceObject
+read_fds	fdevent.c	/^static fd_set read_fds;$/;"	v	file:
+read_from_remote	sdb.h	/^    int (*read_from_remote)(apacket *p, atransport *t);$/;"	m	struct:atransport
+read_line	transport_local.c	/^int read_line(const int fd, char* ptr, size_t maxlen)$/;"	f
+read_packet	transport.c	/^read_packet(int  fd, apacket** ppacket)$/;"	f	file:
+readx	transport.c	/^int readx(int fd, void *ptr, size_t len)$/;"	f
+ready	sdb.h	/^    void (*ready)(asocket *s);$/;"	m	struct:asocket
+ready	sysdeps_win32.c	/^    int          ready;    \/* ready event flags  *\/$/;"	m	struct:EventHookRec_	file:
+reaper_thread	usb_linux.c	/^    pthread_t reaper_thread;$/;"	m	struct:usb_handle	file:
+reboot_service	services.c	/^void reboot_service(int fd, void *arg)$/;"	f
+recognized_device	usb_windows.c	/^int recognized_device(usb_handle* handle) {$/;"	f
+recover_service	services.c	/^static void recover_service(int s, void *cookie)$/;"	f	file:
+recovery_mode	sdb.c	/^int recovery_mode = 0;$/;"	v
+red_length	framebuffer_service.c	/^    unsigned int red_length;$/;"	m	struct:fbinfo	file:
+red_offset	framebuffer_service.c	/^    unsigned int red_offset;$/;"	m	struct:fbinfo	file:
+ref_count	sdb.h	/^    int ref_count;$/;"	m	struct:atransport
+ref_count_	sdbwinapi/sdb_api_instance.h	/^  LONG                  ref_count_;$/;"	m	class:SdbApiInstance
+ref_count_	sdbwinapi/sdb_object_handle.h	/^  LONG          ref_count_;$/;"	m	class:SdbObjectHandle
+register_device	usb_libusb.c	/^register_device(struct usb_handle *uh, const char *serial)$/;"	f
+register_device	usb_linux.c	/^static void register_device(const char *dev_name,$/;"	f	file:
+register_new_device	usb_windows.c	/^int register_new_device(usb_handle* handle) {$/;"	f
+register_socket_transport	transport.c	/^void register_socket_transport(int s, const char *serial, int port, int local, const char *device_name)$/;"	f
+register_transport	transport.c	/^static void register_transport(atransport *transport)$/;"	f	file:
+register_usb_transport	transport.c	/^void register_usb_transport(usb_handle *usb, const char *serial, unsigned writeable)$/;"	f
+remote_build_list	file_sync_client.c	/^static int remote_build_list(int syncfd, copyinfo **filelist,$/;"	f	file:
+remote_close	transport_local.c	/^static void remote_close(atransport *t)$/;"	f	file:
+remote_close	transport_usb.c	/^static void remote_close(atransport *t)$/;"	f	file:
+remote_kick	transport_local.c	/^static void remote_kick(atransport *t)$/;"	f	file:
+remote_kick	transport_usb.c	/^static void remote_kick(atransport *t)$/;"	f	file:
+remote_read	transport_local.c	/^static int remote_read(apacket *p, atransport *t)$/;"	f	file:
+remote_read	transport_usb.c	/^static int remote_read(apacket *p, atransport *t)$/;"	f	file:
+remote_socket_close	sockets.c	/^static void remote_socket_close(asocket *s)$/;"	f	file:
+remote_socket_disconnect	sockets.c	/^static void remote_socket_disconnect(void*  _s, atransport*  t)$/;"	f	file:
+remote_socket_enqueue	sockets.c	/^static int remote_socket_enqueue(asocket *s, apacket *p)$/;"	f	file:
+remote_socket_ready	sockets.c	/^static void remote_socket_ready(asocket *s)$/;"	f	file:
+remote_write	transport_local.c	/^static int remote_write(apacket *p, atransport *t)$/;"	f	file:
+remote_write	transport_usb.c	/^static int remote_write(apacket *p, atransport *t)$/;"	f	file:
+remount_service	remount_service.c	/^void remount_service(int fd, void *cookie)$/;"	f
+remount_system	remount_service.c	/^static int remount_system()$/;"	f	file:
+remove_listener	sdb.c	/^static int remove_listener(const char *local_name, const char *connect_to, atransport* transport)$/;"	f	file:
+remove_socket	sockets.c	/^void remove_socket(asocket *s)$/;"	f
+remove_transport	transport.c	/^static void remove_transport(atransport *transport)$/;"	f	file:
+remove_transport_disconnect	transport.c	/^void remove_transport_disconnect(atransport*  t, adisconnect*  dis)$/;"	f
+report_bulk_libusb_error	usb_libusb.c	/^report_bulk_libusb_error(int r)$/;"	f
+req	file_sync_service.h	/^    } req;$/;"	m	union:__anon4	typeref:struct:__anon4::__anon5
+rpath	file_sync_client.c	/^    const char *rpath;$/;"	m	struct:__anon13	file:
+run_transport_disconnects	transport.c	/^run_transport_disconnects(atransport*  t)$/;"	f
+save_devicename	transport.c	/^void save_devicename(void)$/;"	f
+scan_usb_devices	usb_libusb.c	/^scan_usb_devices()$/;"	f
+sdb_app_instance_id	sdbwinapi/sdb_api_instance.cpp	/^ULONG_PTR sdb_app_instance_id = 0;$/;"	v
+sdb_app_instance_map	sdbwinapi/sdb_api_instance.cpp	/^SdbApiInstanceMap sdb_app_instance_map;$/;"	v
+sdb_app_instance_map_locker	sdbwinapi/sdb_api_instance.cpp	/^CComAutoCriticalSection sdb_app_instance_map_locker;$/;"	v
+sdb_cleanup	sdb.c	/^static void sdb_cleanup(void)$/;"	f	file:
+sdb_close	sysdeps.h	/^static __inline__ int  sdb_close(int fd)$/;"	f
+sdb_close	sysdeps_win32.c	/^int  sdb_close(int  fd)$/;"	f
+sdb_command	sdb_client.c	/^int sdb_command(const char *service)$/;"	f
+sdb_commandline	commandline.c	/^int sdb_commandline(int argc, char **argv)$/;"	f
+sdb_cond_broadcast	sysdeps.h	286;"	d
+sdb_cond_destroy	sysdeps.h	288;"	d
+sdb_cond_init	sysdeps.h	284;"	d
+sdb_cond_signal	sysdeps.h	287;"	d
+sdb_cond_t	sysdeps.h	283;"	d
+sdb_cond_wait	sysdeps.h	285;"	d
+sdb_connect	sdb_client.c	/^int sdb_connect(const char *service)$/;"	f
+sdb_creat	sysdeps.h	/^static __inline__  int  sdb_creat(const char*  path, int  mode)$/;"	f
+sdb_creat	sysdeps_win32.c	/^int  sdb_creat(const char*  path, int  mode)$/;"	f
+sdb_device_banner	sdb.c	/^static const char *sdb_device_banner = "device";$/;"	v	file:
+sdb_dirstart	sysdeps.h	/^static __inline__  char*  sdb_dirstart( const char*  path )$/;"	f
+sdb_dirstart	sysdeps.h	/^static __inline__ char*  sdb_dirstart(const char*  path)$/;"	f
+sdb_dirstop	sysdeps.h	/^static __inline__  char*  sdb_dirstop( const char*  path )$/;"	f
+sdb_dirstop	sysdeps.h	/^static __inline__ char*  sdb_dirstop(const char*  path)$/;"	f
+sdb_error	sdb_client.c	/^const char *sdb_error(void)$/;"	f
+sdb_get_emulator_console_port	sdb_client.c	/^int  sdb_get_emulator_console_port(void)$/;"	f
+sdb_handle	sdbwinapi/sdb_object_handle.h	/^  SDBAPIHANDLE sdb_handle() const {$/;"	f	class:SdbObjectHandle
+sdb_handle_	sdbwinapi/sdb_object_handle.h	/^  SDBAPIHANDLE  sdb_handle_;$/;"	m	class:SdbObjectHandle
+sdb_interface	usb_windows.c	/^  SDBAPIHANDLE  sdb_interface;$/;"	m	struct:usb_handle	file:
+sdb_is_absolute_host_path	sysdeps.h	/^static __inline__  int  sdb_is_absolute_host_path( const char*  path )$/;"	f
+sdb_lseek	sysdeps.h	/^static __inline__ int   sdb_lseek(int  fd, int  pos, int  where)$/;"	f
+sdb_lseek	sysdeps_win32.c	/^int  sdb_lseek(int  fd, int  pos, int  where)$/;"	f
+sdb_main	sdb.c	/^int sdb_main(int is_daemon, int server_port)$/;"	f
+sdb_mkdir	sysdeps.h	/^static __inline__ int  sdb_mkdir(const char*  path, int mode)$/;"	f
+sdb_mutex_destroy	sysdeps.h	279;"	d
+sdb_mutex_init	sysdeps.h	276;"	d
+sdb_mutex_lock	sysdeps.h	/^static __inline__ void sdb_mutex_lock( sdb_mutex_t*  lock )$/;"	f
+sdb_mutex_lock	sysdeps.h	277;"	d
+sdb_mutex_t	sysdeps.h	/^typedef  pthread_mutex_t          sdb_mutex_t;$/;"	t
+sdb_mutex_t	sysdeps.h	/^typedef CRITICAL_SECTION          sdb_mutex_t;$/;"	t
+sdb_mutex_unlock	sysdeps.h	/^static __inline__ void  sdb_mutex_unlock( sdb_mutex_t*  lock )$/;"	f
+sdb_mutex_unlock	sysdeps.h	278;"	d
+sdb_open	sysdeps.h	/^static __inline__ int  sdb_open( const char*  pathname, int  options )$/;"	f
+sdb_open	sysdeps_win32.c	/^int  sdb_open(const char*  path, int  options)$/;"	f
+sdb_open_mode	sysdeps.h	/^static __inline__ int  sdb_open_mode( const char*  pathname, int  options, int  mode )$/;"	f
+sdb_open_mode	sysdeps.h	/^static __inline__ int  sdb_open_mode(const char* path, int options, int mode)$/;"	f
+sdb_port	sdb.h	/^    int sdb_port; \/\/ Use for emulators (local transport)$/;"	m	struct:atransport
+sdb_query	sdb_client.c	/^char *sdb_query(const char *service)$/;"	f
+sdb_read	sysdeps.h	/^static __inline__  int  sdb_read(int  fd, void*  buf, size_t  len)$/;"	f
+sdb_read	sysdeps_win32.c	/^int  sdb_read(int  fd, void* buf, int len)$/;"	f
+sdb_read_pipe	usb_windows.c	/^  SDBAPIHANDLE  sdb_read_pipe;$/;"	m	struct:usb_handle	file:
+sdb_send_emulator_command	console.c	/^int  sdb_send_emulator_command(int  argc, char**  argv)$/;"	f
+sdb_set_tcp_specifics	sdb_client.c	/^void sdb_set_tcp_specifics(int server_port)$/;"	f
+sdb_set_transport	sdb_client.c	/^void sdb_set_transport(transport_type type, const char* serial)$/;"	f
+sdb_shutdown	sysdeps.h	/^static __inline__ int  sdb_shutdown(int fd)$/;"	f
+sdb_shutdown	sysdeps_win32.c	/^int  sdb_shutdown(int  fd)$/;"	f
+sdb_sleep_ms	sysdeps.h	/^static __inline__ void  sdb_sleep_ms( int  mseconds )$/;"	f
+sdb_socket_accept	sysdeps.h	/^static __inline__ int  sdb_socket_accept(int  serverfd, struct sockaddr*  addr, socklen_t  *addrlen)$/;"	f
+sdb_socket_accept	sysdeps_win32.c	/^int  sdb_socket_accept(int  serverfd, struct sockaddr*  addr, socklen_t  *addrlen)$/;"	f
+sdb_socket_setbufsize	sysdeps.h	/^static __inline__  int  sdb_socket_setbufsize( int   fd, int  bufsize )$/;"	f
+sdb_socketpair	sysdeps.h	/^static __inline__ int  sdb_socketpair( int  sv[2] )$/;"	f
+sdb_socketpair	sysdeps_win32.c	/^int  sdb_socketpair( int  sv[2] )$/;"	f
+sdb_status	sdb_client.c	/^int sdb_status(int fd)$/;"	f
+sdb_sysdeps_init	sysdeps.h	/^static __inline__ void  sdb_sysdeps_init(void)$/;"	f
+sdb_sysdeps_init	sysdeps_win32.c	/^sdb_sysdeps_init( void )$/;"	f
+sdb_thread_create	sysdeps.h	/^static __inline__ int  sdb_thread_create( sdb_thread_t  *pthread, sdb_thread_func_t  start, void*  arg )$/;"	f
+sdb_thread_create	sysdeps.h	/^static __inline__ int  sdb_thread_create( sdb_thread_t  *thread, sdb_thread_func_t  func, void*  arg)$/;"	f
+sdb_thread_func_t	sysdeps.h	/^typedef  void*  (*sdb_thread_func_t)(void*  arg);$/;"	t
+sdb_thread_func_t	sysdeps.h	/^typedef void*  (*sdb_thread_func_t)( void*  arg );$/;"	t
+sdb_thread_t	sysdeps.h	/^typedef  pthread_t                 sdb_thread_t;$/;"	t
+sdb_thread_t	sysdeps.h	/^typedef struct { unsigned  tid; }  sdb_thread_t;$/;"	t	typeref:struct:__anon3
+sdb_trace_init	sdb.c	/^void  sdb_trace_init(void)$/;"	f
+sdb_trace_mask	sdb.c	/^int   sdb_trace_mask;$/;"	v
+sdb_trace_mask	sdb.h	/^  int     sdb_trace_mask;$/;"	v
+sdb_unlink	sysdeps.h	/^static __inline__  int    sdb_unlink(const char*  path)$/;"	f
+sdb_write	sysdeps.h	/^static __inline__  int  sdb_write(int  fd, const void*  buf, size_t  len)$/;"	f
+sdb_write	sysdeps_win32.c	/^int  sdb_write(int  fd, const void*  buf, int  len)$/;"	f
+sdb_write_pipe	usb_windows.c	/^  SDBAPIHANDLE  sdb_write_pipe;$/;"	m	struct:usb_handle	file:
+sdbwinusbapi_handle_	sdbwinapi/SdbWinApi.cpp	/^  HINSTANCE sdbwinusbapi_handle_;$/;"	m	class:CSdbWinApiModule	file:
+select_n	fdevent.c	/^static int select_n = 0;$/;"	v	file:
+send_buffer	file_sync_client.c	/^static syncsendbuf send_buffer;$/;"	v	file:
+send_close	sdb.c	/^static void send_close(unsigned local, unsigned remote, atransport *t)$/;"	f	file:
+send_connect	sdb.c	/^static void send_connect(atransport *t)$/;"	f	file:
+send_packet	transport.c	/^void send_packet(apacket *p, atransport *t)$/;"	f
+send_ready	sdb.c	/^static void send_ready(unsigned local, unsigned remote, atransport *t)$/;"	f	file:
+send_shellcommand	commandline.c	/^static int send_shellcommand(transport_type transport, char* serial, char* buf)$/;"	f	file:
+sendfailmsg	sockets.c	/^int sendfailmsg(int fd, const char *reason)$/;"	f
+serial	sdb.h	/^    char *serial;$/;"	m	struct:atransport
+serial	services.c	/^    char* serial;$/;"	m	struct:state_info	file:
+serial	usb_libusb.c	/^    char                  serial[128];$/;"	m	struct:usb_handle	file:
+server_socket_thread	transport_local.c	/^static void *server_socket_thread(void * arg)$/;"	f	file:
+service_bootstrap_func	services.c	/^void *service_bootstrap_func(void *x)$/;"	f
+service_to_fd	services.c	/^int service_to_fd(const char *name)$/;"	f
+setting_index	sdbwinapi/sdb_api.h	/^  unsigned char setting_index;$/;"	m	struct:_SdbEndpointInformation
+sfd	sdb.h	/^    int sfd;$/;"	m	struct:atransport
+shutdown	sysdeps.h	333;"	d
+shutdown	sysdeps.h	334;"	d
+sigalrm_handler	usb_libusb.c	/^sigalrm_handler(int signo)$/;"	f	file:
+sigalrm_handler	usb_linux.c	/^static void sigalrm_handler(int signo)$/;"	f	file:
+sigchld_handler	sdb.c	/^static void sigchld_handler(int n)$/;"	f	file:
+size	file_sync_client.c	/^    unsigned int size;$/;"	m	struct:copyinfo	file:
+size	file_sync_client.c	/^    unsigned size;$/;"	m	struct:syncsendbuf	file:
+size	file_sync_service.h	/^        unsigned size;$/;"	m	struct:__anon4::__anon6
+size	file_sync_service.h	/^        unsigned size;$/;"	m	struct:__anon4::__anon7
+size	file_sync_service.h	/^        unsigned size;$/;"	m	struct:__anon4::__anon8
+size	framebuffer_service.c	/^    unsigned int size;$/;"	m	struct:fbinfo	file:
+smart_socket_action	sockets.c	/^void smart_socket_action(asocket *s, const char *act)$/;"	f
+smart_socket_close	sockets.c	/^static void smart_socket_close(asocket *s)$/;"	f	file:
+smart_socket_enqueue	sockets.c	/^static int smart_socket_enqueue(asocket *s, apacket *p)$/;"	f	file:
+smart_socket_ready	sockets.c	/^static void smart_socket_ready(asocket *s)$/;"	f	file:
+socket	jdwp_service.c	/^    asocket       socket;$/;"	m	struct:JdwpTracker	file:
+socket	jdwp_service.c	/^    asocket  socket;$/;"	m	struct:__anon11	file:
+socket	jdwp_service.c	/^    int           socket;$/;"	m	struct:JdwpProcess	file:
+socket	sockets.c	/^    asocket      socket;$/;"	m	struct:aremotesocket	file:
+socket	sysdeps_win32.c	/^        SOCKET      socket;$/;"	m	union:FHRec_::__anon12	file:
+socket	transport.c	/^    asocket          socket;$/;"	m	struct:device_tracker	file:
+socket_inaddr_any_server	socket_inaddr_any_server.c	/^int socket_inaddr_any_server(int port, int type)$/;"	f
+socket_inaddr_any_server	sysdeps_win32.c	/^int socket_inaddr_any_server(int port, int type)$/;"	f
+socket_list_lock	sockets.c	/^SDB_MUTEX_DEFINE( socket_list_lock );$/;"	v
+socket_local_client	socket_local_client.c	/^int socket_local_client(const char *name, int namespaceId, int type)$/;"	f
+socket_local_client_connect	socket_local_client.c	/^int socket_local_client_connect(int fd, const char *name, int namespaceId, $/;"	f
+socket_local_server	socket_local_server.c	/^int socket_local_server(const char *name, int namespace, int type)$/;"	f
+socket_local_server	socket_local_server.c	/^int socket_local_server(const char *name, int namespaceId, int type)$/;"	f
+socket_local_server_bind	socket_local_server.c	/^int socket_local_server_bind(int s, const char *name, int namespaceId)$/;"	f
+socket_loopback_client	socket_loopback_client.c	/^int socket_loopback_client(int port, int type)$/;"	f
+socket_loopback_client	sysdeps_win32.c	/^int socket_loopback_client(int port, int type)$/;"	f
+socket_loopback_server	socket_loopback_server.c	/^int socket_loopback_server(int port, int type)$/;"	f
+socket_loopback_server	sysdeps_win32.c	/^int socket_loopback_server(int port, int type)$/;"	f
+socket_make_sockaddr_un	socket_local_client.c	/^int socket_make_sockaddr_un(const char *name, int namespaceId, $/;"	f
+socket_network_client	socket_network_client.c	/^int socket_network_client(const char *host, int port, int type)$/;"	f
+socket_network_client	sysdeps_win32.c	/^int socket_network_client(const char *host, int port, int type)$/;"	f
+socketpair	sysdeps.h	443;"	d
+socketpair	sysdeps.h	444;"	d
+socklen_t	sockets.h	/^typedef int  socklen_t;$/;"	t
+src	file_sync_client.c	/^    const char *src;$/;"	m	struct:copyinfo	file:
+ss_listener_event_func	sdb.c	/^static void ss_listener_event_func(int _fd, unsigned ev, void *_l)$/;"	f	file:
+start	sysdeps_win32.c	/^    int         (*start)  ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+start_cond	usb_osx.c	/^static pthread_cond_t start_cond;$/;"	v	file:
+start_device_log	sdb.c	/^void start_device_log(void)$/;"	f
+start_lock	usb_osx.c	/^static pthread_mutex_t start_lock;$/;"	v	file:
+start_logging	sdb.c	/^void start_logging(void)$/;"	f
+start_time	file_sync_client.c	/^static long long start_time;$/;"	v	file:
+stat	file_sync_service.h	/^    } stat;$/;"	m	union:__anon4	typeref:struct:__anon4::__anon6
+state	fdevent.h	/^    unsigned short state;$/;"	m	struct:fdevent
+state	services.c	/^    int state;$/;"	m	struct:state_info	file:
+state	sysdeps.h	/^    unsigned short state;$/;"	m	struct:fdevent
+state_info	services.c	/^struct state_info {$/;"	s	file:
+statename	transport.c	/^static const char *statename(atransport *t)$/;"	f	file:
+status	file_sync_service.h	/^    } status;    $/;"	m	union:__anon4	typeref:struct:__anon4::__anon9
+status_window	commandline.c	/^static void status_window(transport_type ttype, const char* serial)$/;"	f	file:
+stdin_raw_init	commandline.c	/^static void stdin_raw_init(int fd)$/;"	f	file:
+stdin_raw_restore	commandline.c	/^static void stdin_raw_restore(int fd)$/;"	f	file:
+stdin_read_thread	commandline.c	/^static void *stdin_read_thread(void *x)$/;"	f	file:
+stinfo	services.c	/^struct stinfo {$/;"	s	file:
+stinfo	services.c	/^typedef struct stinfo stinfo;$/;"	t	typeref:struct:stinfo	file:
+stop	sysdeps_win32.c	/^    void        (*stop)   ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+switch_socket_transport	sdb_client.c	/^static int switch_socket_transport(int fd)$/;"	f	file:
+sync_finish_readtime	file_sync_client.c	/^static int sync_finish_readtime(int fd, unsigned int *timestamp,$/;"	f	file:
+sync_ls	file_sync_client.c	/^int sync_ls(int fd, const char *path, sync_ls_cb func, void *cookie)$/;"	f
+sync_ls_build_list_cb	file_sync_client.c	/^sync_ls_build_list_cb(unsigned mode, unsigned size, unsigned time,$/;"	f
+sync_ls_build_list_cb_args	file_sync_client.c	/^} sync_ls_build_list_cb_args;$/;"	t	typeref:struct:__anon13	file:
+sync_ls_cb	file_sync_client.c	/^typedef void (*sync_ls_cb)(unsigned mode, unsigned size, unsigned time, const char *name, void *cookie);$/;"	t	file:
+sync_quit	file_sync_client.c	/^void sync_quit(int fd)$/;"	f
+sync_readmode	file_sync_client.c	/^int sync_readmode(int fd, const char *path, unsigned *mode)$/;"	f
+sync_readtime	file_sync_client.c	/^int sync_readtime(int fd, const char *path, unsigned *timestamp)$/;"	f
+sync_recv	file_sync_client.c	/^int sync_recv(int fd, const char *rpath, const char *lpath)$/;"	f
+sync_send	file_sync_client.c	/^static int sync_send(int fd, const char *lpath, const char *rpath,$/;"	f	file:
+sync_start_readtime	file_sync_client.c	/^static int sync_start_readtime(int fd, const char *path)$/;"	f	file:
+sync_token	sdb.h	/^    unsigned sync_token;$/;"	m	struct:atransport
+syncmsg	file_sync_service.h	/^} syncmsg;$/;"	t	typeref:union:__anon4
+syncsendbuf	file_sync_client.c	/^struct syncsendbuf {$/;"	s	file:
+syncsendbuf	file_sync_client.c	/^typedef struct syncsendbuf syncsendbuf;$/;"	t	typeref:struct:syncsendbuf	file:
+system_ro	remount_service.c	/^static int system_ro = 1;$/;"	v	file:
+the_map	sdbwinapi/sdb_object_handle.cpp	/^SdbObjectHandleMap      the_map;$/;"	v
+the_map_locker	sdbwinapi/sdb_object_handle.cpp	/^CComAutoCriticalSection the_map_locker;$/;"	v
+tid	sysdeps.h	/^typedef struct { unsigned  tid; }  sdb_thread_t;$/;"	m	struct:__anon3
+time	file_sync_client.c	/^    unsigned int time;$/;"	m	struct:copyinfo	file:
+time	file_sync_service.h	/^        unsigned time;$/;"	m	struct:__anon4::__anon6
+time	file_sync_service.h	/^        unsigned time;$/;"	m	struct:__anon4::__anon7
+time_out	sdbwinapi/sdb_api_legacy.h	/^  ULONG time_out;$/;"	m	struct:SdbBulkTransfer
+tio_save	commandline.c	/^static struct termios tio_save;$/;"	v	typeref:struct:termios	file:
+tmsg	transport.c	/^struct tmsg$/;"	s	file:
+tmsg	transport.c	/^typedef struct tmsg tmsg;$/;"	t	typeref:struct:tmsg	file:
+total_bytes	file_sync_client.c	/^static unsigned total_bytes;$/;"	v	file:
+transfer_size	sdbwinapi/sdb_api_legacy.h	/^  ULONG transfer_size;$/;"	m	struct:SdbBulkTransfer
+transferred_bytes_	sdbwinapi/sdb_legacy_io_completion.h	/^  ULONG         transferred_bytes_;$/;"	m	class:SdbLegacyIOCompletion
+transferred_bytes_ptr	sdbwinapi/sdb_legacy_io_completion.h	/^  ULONG* transferred_bytes_ptr() {$/;"	f	class:SdbLegacyIOCompletion
+transport	sdb.h	/^    atransport *transport;$/;"	m	struct:alistener
+transport	sdb.h	/^    atransport *transport;$/;"	m	struct:asocket
+transport	services.c	/^    transport_type transport;$/;"	m	struct:state_info	file:
+transport	transport.c	/^    atransport *transport;$/;"	m	struct:tmsg	file:
+transport_fde	sdb.h	/^    fdevent transport_fde;$/;"	m	struct:atransport
+transport_list	transport.c	/^static atransport transport_list = {$/;"	v	file:
+transport_lock	transport.c	/^SDB_MUTEX_DEFINE( transport_lock );$/;"	v
+transport_read_action	transport.c	/^transport_read_action(int  fd, struct tmsg*  m)$/;"	f	file:
+transport_registration_fde	transport.c	/^static fdevent transport_registration_fde;$/;"	v	file:
+transport_registration_func	transport.c	/^static void transport_registration_func(int _fd, unsigned ev, void *data)$/;"	f	file:
+transport_registration_recv	transport.c	/^static int transport_registration_recv = -1;$/;"	v	file:
+transport_registration_send	transport.c	/^static int transport_registration_send = -1;$/;"	v	file:
+transport_socket	sdb.h	/^    int transport_socket;$/;"	m	struct:atransport
+transport_socket_events	transport.c	/^static void transport_socket_events(int fd, unsigned events, void *_t)$/;"	f	file:
+transport_type	sdb.h	/^typedef enum transport_type {$/;"	g
+transport_type	sdb.h	/^} transport_type;$/;"	t	typeref:enum:transport_type
+transport_unref	transport.c	/^static void transport_unref(atransport *t)$/;"	f	file:
+transport_unref_locked	transport.c	/^static void transport_unref_locked(atransport *t)$/;"	f	file:
+transport_write_action	transport.c	/^transport_write_action(int  fd, struct tmsg*  m)$/;"	f	file:
+true	sdbwinapi/sdb_api.h	31;"	d
+true	sdbwinapi/sdb_api_legacy.h	31;"	d
+type	sdb.h	/^    transport_type type;$/;"	m	struct:atransport
+u	sysdeps_win32.c	/^    } u;$/;"	m	struct:FHRec_	typeref:union:FHRec_::__anon12	file:
+unhex	sockets.c	/^unsigned unhex(unsigned char *s, int len)$/;"	f
+uninstall_app	commandline.c	/^int uninstall_app(transport_type transport, char* serial, int argc, char** argv)$/;"	f
+unix_close	sysdeps.h	/^static __inline__ int  unix_close(int fd)$/;"	f
+unix_close	sysdeps.h	396;"	d
+unix_open	sysdeps.h	/^static __inline__ int  unix_open(const char*  path, int options,...)$/;"	f
+unix_read	sysdeps.h	/^static __inline__  int  unix_read(int  fd, void*  buf, size_t  len)$/;"	f
+unix_read	sysdeps.h	394;"	d
+unix_read	test_track_devices.c	/^unix_read( int  fd, char*  buf, int  len )$/;"	f	file:
+unix_read	test_track_jdwp.c	/^unix_read( int  fd, char*  buf, int  len )$/;"	f	file:
+unix_socketpair	sysdeps.h	/^static __inline__ int  unix_socketpair( int  d, int  type, int  protocol, int sv[2] )$/;"	f
+unix_write	sysdeps.h	/^static __inline__  int  unix_write(int  fd, const void*  buf, size_t  len)$/;"	f
+unix_write	sysdeps.h	395;"	d
+unix_write	test_track_devices.c	/^unix_write( int  fd, const char*  buf, int  len )$/;"	f	file:
+unix_write	test_track_jdwp.c	/^unix_write( int  fd, const char*  buf, int  len )$/;"	f	file:
+unlink	sysdeps.h	101;"	d
+unlink	sysdeps.h	102;"	d
+unlink	sysdeps.h	370;"	d
+unlink	sysdeps.h	371;"	d
+unregister_all_tcp_transports	transport.c	/^void unregister_all_tcp_transports()$/;"	f
+unregister_transport	transport.c	/^void unregister_transport(atransport *t)$/;"	f
+unregister_usb_transport	transport.c	/^void unregister_usb_transport(usb_handle *usb)$/;"	f
+update_needed	transport.c	/^    int              update_needed;$/;"	m	struct:device_tracker	file:
+update_transports	transport.c	/^void  update_transports(void)$/;"	f
+urb_in	usb_linux.c	/^    struct usbdevfs_urb urb_in;$/;"	m	struct:usb_handle	typeref:struct:usb_handle::usbdevfs_urb	file:
+urb_in_busy	usb_linux.c	/^    int urb_in_busy;$/;"	m	struct:usb_handle	file:
+urb_out	usb_linux.c	/^    struct usbdevfs_urb urb_out;$/;"	m	struct:usb_handle	typeref:struct:usb_handle::usbdevfs_urb	file:
+urb_out_busy	usb_linux.c	/^    int urb_out_busy;$/;"	m	struct:usb_handle	file:
+usage	commandline.c	/^int usage()$/;"	f
+usb	sdb.h	/^    usb_handle *usb;$/;"	m	struct:atransport
+usbNotification	usb_osx.c	/^    io_object_t               usbNotification;$/;"	m	struct:usb_handle	file:
+usb_bulk_read	usb_libusb.c	/^usb_bulk_read(usb_handle *uh, void *data, int len)$/;"	f	file:
+usb_bulk_read	usb_linux.c	/^static int usb_bulk_read(usb_handle *h, void *data, int len)$/;"	f	file:
+usb_bulk_write	usb_libusb.c	/^usb_bulk_write(usb_handle *uh, const void *data, int len)$/;"	f	file:
+usb_bulk_write	usb_linux.c	/^static int usb_bulk_write(usb_handle *h, const void *data, int len)$/;"	f	file:
+usb_class_id	usb_windows.c	/^static const GUID usb_class_id = ANDROID_USB_CLASS_ID;$/;"	v	file:
+usb_cleanup	usb_libusb.c	/^usb_cleanup()$/;"	f
+usb_cleanup	usb_linux.c	/^void usb_cleanup()$/;"	f
+usb_cleanup	usb_linux_client.c	/^void usb_cleanup()$/;"	f
+usb_cleanup	usb_osx.c	/^void usb_cleanup()$/;"	f
+usb_cleanup	usb_windows.c	/^void usb_cleanup() {$/;"	f
+usb_cleanup_handle	usb_windows.c	/^void usb_cleanup_handle(usb_handle* handle) {$/;"	f
+usb_close	usb_libusb.c	/^usb_close(struct usb_handle *h)$/;"	f
+usb_close	usb_linux.c	/^int usb_close(usb_handle *h)$/;"	f
+usb_close	usb_linux_client.c	/^int usb_close(usb_handle *h)$/;"	f
+usb_close	usb_osx.c	/^int usb_close(usb_handle *handle)$/;"	f
+usb_close	usb_windows.c	/^int usb_close(usb_handle* handle) {$/;"	f
+usb_config_descriptor	sdbwinapi/sdb_interface.h	/^  const USB_CONFIGURATION_DESCRIPTOR* usb_config_descriptor() const {$/;"	f	class:SdbInterfaceObject
+usb_config_descriptor_	sdbwinapi/sdb_interface.h	/^  USB_CONFIGURATION_DESCRIPTOR  usb_config_descriptor_;$/;"	m	class:SdbInterfaceObject
+usb_device_descriptor	sdbwinapi/sdb_interface.h	/^  const USB_DEVICE_DESCRIPTOR* usb_device_descriptor() const {$/;"	f	class:SdbInterfaceObject
+usb_device_descriptor_	sdbwinapi/sdb_interface.h	/^  USB_DEVICE_DESCRIPTOR         usb_device_descriptor_;$/;"	m	class:SdbInterfaceObject
+usb_device_handle	sdbwinusbapi/sdb_winusb_interface.h	/^  HANDLE usb_device_handle() const {$/;"	f	class:SdbWinUsbInterfaceObject
+usb_device_handle_	sdbwinusbapi/sdb_winusb_interface.h	/^  HANDLE                        usb_device_handle_;$/;"	m	class:SdbWinUsbInterfaceObject
+usb_handle	sdb.h	/^typedef struct usb_handle usb_handle;$/;"	t	typeref:struct:usb_handle
+usb_handle	sdbwinapi/sdb_legacy_endpoint_object.h	/^  HANDLE usb_handle() const {$/;"	f	class:SdbLegacyEndpointObject
+usb_handle	usb_libusb.c	/^struct usb_handle$/;"	s	file:
+usb_handle	usb_linux.c	/^struct usb_handle$/;"	s	file:
+usb_handle	usb_linux_client.c	/^struct usb_handle$/;"	s	file:
+usb_handle	usb_osx.c	/^struct usb_handle$/;"	s	file:
+usb_handle	usb_windows.c	/^struct usb_handle {$/;"	s	file:
+usb_handle_	sdbwinapi/sdb_legacy_endpoint_object.h	/^  HANDLE              usb_handle_;$/;"	m	class:SdbLegacyEndpointObject
+usb_init	usb_libusb.c	/^usb_init()$/;"	f
+usb_init	usb_linux.c	/^void usb_init()$/;"	f
+usb_init	usb_linux_client.c	/^void usb_init()$/;"	f
+usb_init	usb_osx.c	/^void usb_init()$/;"	f
+usb_init	usb_windows.c	/^void usb_init() {$/;"	f
+usb_interface_descriptor	sdbwinapi/sdb_interface.h	/^  const USB_INTERFACE_DESCRIPTOR* usb_interface_descriptor() const {$/;"	f	class:SdbInterfaceObject
+usb_interface_descriptor_	sdbwinapi/sdb_interface.h	/^  USB_INTERFACE_DESCRIPTOR      usb_interface_descriptor_;$/;"	m	class:SdbInterfaceObject
+usb_kick	usb_libusb.c	/^void usb_kick(struct usb_handle *h)$/;"	f
+usb_kick	usb_linux.c	/^void usb_kick(usb_handle *h)$/;"	f
+usb_kick	usb_linux_client.c	/^void usb_kick(usb_handle *h)$/;"	f
+usb_kick	usb_osx.c	/^void usb_kick(usb_handle *handle)$/;"	f
+usb_kick	usb_windows.c	/^void usb_kick(usb_handle* handle) {$/;"	f
+usb_lock	usb_libusb.c	/^static sdb_mutex_t usb_lock = SDB_MUTEX_INITIALIZER;$/;"	v	file:
+usb_lock	usb_linux.c	/^static sdb_mutex_t usb_lock = SDB_MUTEX_INITIALIZER;$/;"	v	file:
+usb_lock	usb_windows.c	/^SDB_MUTEX_DEFINE( usb_lock );$/;"	v
+usb_name	usb_windows.c	/^const char *usb_name(usb_handle* handle) {$/;"	f
+usb_open_thread	usb_linux_client.c	/^static void *usb_open_thread(void *x)$/;"	f	file:
+usb_read	usb_libusb.c	/^usb_read(struct usb_handle *uh, void *_data, int len)$/;"	f
+usb_read	usb_linux.c	/^int usb_read(usb_handle *h, void *_data, int len)$/;"	f
+usb_read	usb_linux_client.c	/^int usb_read(usb_handle *h, void *data, int len)$/;"	f
+usb_read	usb_osx.c	/^int usb_read(usb_handle *handle, void *buf, int len)$/;"	f
+usb_read	usb_windows.c	/^int usb_read(usb_handle *handle, void* data, int len) {$/;"	f
+usb_vendors_init	usb_vendors.c	/^void usb_vendors_init(void)$/;"	f
+usb_write	usb_libusb.c	/^usb_write(struct usb_handle *uh, const void *_data, int len)$/;"	f
+usb_write	usb_linux.c	/^int usb_write(usb_handle *h, const void *_data, int len)$/;"	f
+usb_write	usb_linux_client.c	/^int usb_write(usb_handle *h, const void *data, int len)$/;"	f
+usb_write	usb_osx.c	/^int usb_write(usb_handle *handle, const void *buf, int len)$/;"	f
+usb_write	usb_windows.c	/^int usb_write(usb_handle* handle, const void* data, int len) {$/;"	f
+used	sysdeps_win32.c	/^    int           used;$/;"	m	struct:SocketPairRec_	file:
+used	sysdeps_win32.c	/^    int        used;$/;"	m	struct:FHRec_	file:
+vendorIdCount	usb_vendors.c	/^unsigned vendorIdCount = 0;$/;"	v
+vendorIds	usb_vendors.c	/^int vendorIds[VENDOR_COUNT_MAX];$/;"	v
+version	commandline.c	/^void version(FILE * out) {$/;"	f
+version	framebuffer_service.c	/^    unsigned int version;$/;"	m	struct:fbinfo	file:
+wait_for_state	services.c	/^static void wait_for_state(int fd, void* cookie)$/;"	f	file:
+wanted	sysdeps_win32.c	/^    int          wanted;   \/* wanted event flags *\/$/;"	m	struct:EventHookRec_	file:
+width	framebuffer_service.c	/^    unsigned int width;$/;"	m	struct:fbinfo	file:
+win32_looper	sysdeps_win32.c	/^static EventLooperRec  win32_looper;$/;"	v	file:
+win_thread_func_t	sysdeps.h	/^typedef  void (*win_thread_func_t)(void*  arg);$/;"	t
+winusb_handle	sdbwinusbapi/sdb_winusb_endpoint_object.h	/^  WINUSB_INTERFACE_HANDLE winusb_handle() const {$/;"	f	class:SdbWinUsbEndpointObject
+winusb_handle	sdbwinusbapi/sdb_winusb_interface.h	/^  WINUSB_INTERFACE_HANDLE winusb_handle() const {$/;"	f	class:SdbWinUsbInterfaceObject
+winusb_handle_	sdbwinusbapi/sdb_winusb_interface.h	/^  WINUSB_INTERFACE_HANDLE       winusb_handle_;$/;"	m	class:SdbWinUsbInterfaceObject
+write	sysdeps.h	137;"	d
+write	sysdeps.h	138;"	d
+write	sysdeps.h	356;"	d
+write	sysdeps.h	357;"	d
+write_buffer	sdbwinapi/sdb_api_legacy.h	/^    void* write_buffer;$/;"	m	union:SdbBulkTransfer::__anon14
+write_data_buffer	file_sync_client.c	/^static int write_data_buffer(int fd, char* file_buffer, int size, syncsendbuf *sbuf)$/;"	f	file:
+write_data_file	file_sync_client.c	/^static int write_data_file(int fd, const char *path, syncsendbuf *sbuf)$/;"	f	file:
+write_data_link	file_sync_client.c	/^static int write_data_link(int fd, const char *path, syncsendbuf *sbuf)$/;"	f	file:
+write_endpoint_id_	sdbwinapi/sdb_legacy_interface.h	/^  UCHAR                         write_endpoint_id_;$/;"	m	class:SdbLegacyInterfaceObject
+write_endpoint_id_	sdbwinusbapi/sdb_winusb_interface.h	/^  UCHAR                         write_endpoint_id_;$/;"	m	class:SdbWinUsbInterfaceObject
+write_fds	fdevent.c	/^static fd_set write_fds;$/;"	v	file:
+write_packet	transport.c	/^write_packet(int  fd, apacket** ppacket)$/;"	f	file:
+write_string	remount_service.c	/^static void write_string(int fd, const char* str)$/;"	f	file:
+write_to_remote	sdb.h	/^    int (*write_to_remote)(apacket *p, atransport *t);$/;"	m	struct:atransport
+writeable	usb_linux.c	/^    unsigned writeable;$/;"	m	struct:usb_handle	file:
+writex	transport.c	/^int writex(int fd, const void *ptr, size_t len)$/;"	f
+zero_mask	usb_libusb.c	/^    int                   zero_mask;$/;"	m	struct:usb_handle	file:
+zero_mask	usb_linux.c	/^    unsigned zero_mask;$/;"	m	struct:usb_handle	file:
+zero_mask	usb_osx.c	/^    unsigned int              zero_mask;$/;"	m	struct:usb_handle	file:
+zero_mask	usb_windows.c	/^  unsigned zero_mask;$/;"	m	struct:usb_handle	file:
+~CSdbWinApiModule	sdbwinapi/SdbWinApi.cpp	/^  ~CSdbWinApiModule() {$/;"	f	class:CSdbWinApiModule
+~SdbApiInstance	sdbwinapi/sdb_api_instance.cpp	/^SdbApiInstance::~SdbApiInstance() {$/;"	f	class:SdbApiInstance
+~SdbEndpointObject	sdbwinapi/sdb_endpoint_object.cpp	/^SdbEndpointObject::~SdbEndpointObject() {$/;"	f	class:SdbEndpointObject
+~SdbIOCompletion	sdbwinapi/sdb_io_completion.cpp	/^SdbIOCompletion::~SdbIOCompletion() {$/;"	f	class:SdbIOCompletion
+~SdbInstanceEnumEntry	sdbwinapi/sdb_api_private_defines.h	/^  ~SdbInstanceEnumEntry() {$/;"	f	class:SdbInstanceEnumEntry
+~SdbInterfaceEnumObject	sdbwinapi/sdb_interface_enum.cpp	/^SdbInterfaceEnumObject::~SdbInterfaceEnumObject() {$/;"	f	class:SdbInterfaceEnumObject
+~SdbInterfaceObject	sdbwinapi/sdb_interface.cpp	/^SdbInterfaceObject::~SdbInterfaceObject() {$/;"	f	class:SdbInterfaceObject
+~SdbLegacyEndpointObject	sdbwinapi/sdb_legacy_endpoint_object.cpp	/^SdbLegacyEndpointObject::~SdbLegacyEndpointObject() {$/;"	f	class:SdbLegacyEndpointObject
+~SdbLegacyIOCompletion	sdbwinapi/sdb_legacy_io_completion.cpp	/^SdbLegacyIOCompletion::~SdbLegacyIOCompletion() {$/;"	f	class:SdbLegacyIOCompletion
+~SdbLegacyInterfaceObject	sdbwinapi/sdb_legacy_interface.cpp	/^SdbLegacyInterfaceObject::~SdbLegacyInterfaceObject() {$/;"	f	class:SdbLegacyInterfaceObject
+~SdbObjectHandle	sdbwinapi/sdb_object_handle.cpp	/^SdbObjectHandle::~SdbObjectHandle() {$/;"	f	class:SdbObjectHandle
+~SdbWinUsbEndpointObject	sdbwinusbapi/sdb_winusb_endpoint_object.cpp	/^SdbWinUsbEndpointObject::~SdbWinUsbEndpointObject() {$/;"	f	class:SdbWinUsbEndpointObject
+~SdbWinUsbIOCompletion	sdbwinusbapi/sdb_winusb_io_completion.cpp	/^SdbWinUsbIOCompletion::~SdbWinUsbIOCompletion() {$/;"	f	class:SdbWinUsbIOCompletion
+~SdbWinUsbInterfaceObject	sdbwinusbapi/sdb_winusb_interface.cpp	/^SdbWinUsbInterfaceObject::~SdbWinUsbInterfaceObject() {$/;"	f	class:SdbWinUsbInterfaceObject

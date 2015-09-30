@@ -1,0 +1,24 @@
+#!/bin/ash
+/bin/umount /dev/nande 1>/dev/null
+if [ $? != "0" ];then
+        echo "umount user disk failed"
+fi
+
+/sbin/mke2fs -t ext4 -L 'UDISK' /dev/nande 1>/dev/null
+if [ $? != "0" ];then
+        echo "format user disk failed"
+fi
+
+/mnt/tools/init_key 1>/dev/null
+if [ $? != "0" ];then
+        echo "encrypt initialization failed"
+fi
+
+sync
+
+/bin/mount  -o "rw" /dev/nande /udisk 1>/dev/null
+if [ $? != "0" ];then
+        echo "re-mount user disk fail"
+fi
+
+/bin/rm -rf /udisk/lost\+found 1>/dev/null
