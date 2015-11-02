@@ -10,10 +10,10 @@ Android使用的linux内核USB驱动的设计非常巧妙，几乎将现有的US
 
 # 安全校验流程
 固件第一次上电时，通过随机数发生器(物理噪声源)生成唯一密钥。
-对使用初始口令12345678使用SM3进行加密，并用加密后的口令对之前生成的唯一密钥进行加密，使用SM4算法。并将加密后的密钥文件1保存。
-然后，使用同样的加密后口令对一段文字进行加密(使用了一段从知乎上的文字，挺有意思的)，同样操作，并保存为密钥文件2。
+对使用初始口令12345678使用SM3进行加密，并用加密后的口令对之前生成的唯一密钥进行加密，使用SM4算法。并将加密后的`密钥文件1`保存。
+然后，使用同样的加密后口令对一段文字进行加密(使用了一段从知乎上的文字，挺有意思的)，同样操作，并保存为`密钥文件2`。
 
-之后每次登陆都对口令执行相同的操作，并使用加密后的口令对同一段文字进行SM4加密，如果密文和之前保存的密钥文件2相同，则表明口令正确。
+之后每次登陆都对口令执行相同的操作，并使用加密后的口令对同一段文字进行SM4加密，如果密文和之前保存的`密钥文件2`相同，则表明口令正确。
 
 
 
@@ -32,6 +32,7 @@ Android使用的linux内核USB驱动的设计非常巧妙，几乎将现有的US
 3.device端镜像创建方法:
 a.将lichee_v1.6.tar.gz解压到开发目录dev下，将
   pack_eagle目录拷贝到dev/lichee下,目录结构如下：
+```
   dev
   ├── lichee
   │   ├── boot
@@ -41,6 +42,7 @@ a.将lichee_v1.6.tar.gz解压到开发目录dev下，将
   │   ├── pack_eagle
   │   ├── tools
   │   └── u-boot
+```
 b.在lichee目录下执行./build.sh -p sun5i-lite -k 3.0 -m all
 完成后可以看到在out目录下生成了kernel和其他内容。
 
@@ -50,9 +52,8 @@ c.拷贝a10s-safedisk-v1目录到dev/lichee/tools/pack/chips/sun5i/configs/linux
 
 d.修改dev/lichee/tools/pack/pack脚本，修改227行，改为
      LICHEE_OUT=`cd ../../out/android; pwd`
-# 注意
-LICHEE_OUT目录是在out/android下，这个是lichee打包的一个bug，主要是因为全志没有提
-供A10s的linux打包功能，所以有一些脚本没有做过检查
+**注意:LICHEE_OUT目录是在out/android下，这个是lichee打包的一个bug，主要是因为全志没有提
+供A10s的linux打包功能**
 
 e.进入dev/lichee/pack_eagle目录，执行./pack,生成最终livesuite开始使用的镜像
 
